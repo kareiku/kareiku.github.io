@@ -1,0 +1,52 @@
+* {
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    user-select: none;
+    overflow-x: hidden;
+    font-family: system-ui;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+:any-link {
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+    background: rosybrown;
+}
+
+.list {
+    background: #dfdfdf;
+    border: 2px ridge black;
+}
+
+.list legend {
+    font-weight: bold;
+}
+
+.list input {
+    appearance: none;
+    margin-right: 10px;
+    color: black;
+    width: 20px;
+    height: 20px;
+    border: 3px ridge black;
+    border-radius: 5px;
+    transform: translateY(7px);
+}
+
+.list .finished {
+    box-shadow: inset 20px 20px #5dbb63;
+}
+
+.list .inProgress {
+    box-shadow: inset 20px 20px #ff9d5c;
+}
+
+.list .notStarted {
+    box-shadow: inset 20px 20px #b53737;
+}
