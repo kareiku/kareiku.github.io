@@ -1,0 +1,50 @@
+* {
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    user-select: none;
+    overflow-x: hidden;
+    font-family: system-ui;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+:any-link {
+    text-decoration: none;
+}
+
+html {
+    height: 100%;
+    background: rosybrown;
+}
+
+h1 {
+    color: #E40303;
+    text-shadow: 5px 5px #FF8C00, 10px 10px #FFED00, 15px 15px #008026, 20px 20px #24408E, 25px 25px #732982;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+fieldset {
+    background: none;
+    border: none;
+    display: grid;
+    place-content: center;
+}
+
+input {
+    background: #404;
+    color: #fff;
+    width: 300px;
+    height: 40px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
