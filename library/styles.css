@@ -22,6 +22,7 @@ html {
 .list {
     background: #dfdfdf;
     border: 2px ridge black;
+    margin-bottom: 10px;
 }
 
 .list legend {
