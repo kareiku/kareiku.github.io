@@ -1,17 +1,10 @@
 * {
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    user-select: none;
     overflow-x: hidden;
     font-family: system-ui;
 }
 
 ::-webkit-scrollbar {
     display: none;
-}
-
-:any-link {
-    text-decoration: none;
 }
 
 html {
