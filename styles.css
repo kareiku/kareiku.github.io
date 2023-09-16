@@ -1,6 +1,7 @@
 * {
     overflow-x: hidden;
     font-family: system-ui;
+    user-select: none;
 }
 
 ::-webkit-scrollbar {
@@ -30,7 +31,7 @@ fieldset {
     place-content: center;
 }
 
-input {
+input[type="button"] {
     background: #404;
     color: #fff;
     width: 300px;
