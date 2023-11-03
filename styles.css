@@ -14,6 +14,8 @@ html {
 }
 
 h1 {
+    position: relative;
+    display: block;
     color: #E40303;
     text-shadow: 5px 5px #FF8C00, 10px 10px #FFED00, 15px 15px #008026, 20px 20px #24408E, 25px 25px #732982;
     font-size: 70px;
@@ -24,21 +26,63 @@ h1 {
     text-align: center;
 }
 
-fieldset {
-    background: none;
-    border: none;
-    display: grid;
-    place-content: center;
+.links-container {
+    display: flex;
+    justify-content: center;
 }
 
-input[type="button"] {
+.links-wrapper {
+    display: inline-block;
+}
+
+.link-item {
+    display: inline-block;
+    margin: 3px;
+    align-content: center;
+}
+
+.link {
     background: #404;
     color: #fff;
-    width: 300px;
-    height: 40px;
-    font-size: 14px;
-    text-overflow: ellipsis;
+    font-size: 18px;
+    padding: 5px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.link:hover {
+    background: #505;
+}
+
+.library-container {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+}
+
+.library-image {
+    width: 214px;
+    height: 214px;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+}
+
+.library-info {
+    display: none;
+    position: absolute;
+    background: #ccc;
+    color: #000;
+    padding: 7px;
+    width: 200px;
+    border: none;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    left: 0;
+    bottom: 3.3px;
+}
+
+.library-image:hover+.library-info {
+    display: block;
 }
