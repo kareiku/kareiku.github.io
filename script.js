@@ -3,517 +3,517 @@ const library = [
         name: "Assassination Classroom",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/assassination_classroom.png"
+        image: "assassination_classroom.png"
     },
     {
         name: "Sword Art Online",
         type: "Anime Series",
         status: "Watched Seasons 1-2",
-        image: "./assets/images/sao.png"
+        image: "sao.png"
     },
     {
         name: "No Game No Life",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/ngnl.png"
+        image: "ngnl.png"
     },
     {
         name: "Death Note",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/death_note.png"
+        image: "death_note.png"
     },
     {
         name: "Shingeki no Kyojin",
         type: "Anime Series",
         status: "Last Season Remaining",
-        image: "./assets/images/snk.png"
+        image: "snk.png"
     },
     {
         name: "Re:Zero",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/re-zero.png"
+        image: "re-zero.png"
     },
     {
         name: "Blue Exorcist",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/blue_exorcist.png"
+        image: "blue_exorcist.png"
     },
     {
         name: "Fairy Tail",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/fairy_tail.png"
+        image: "fairy_tail.png"
     },
     {
         name: "Little Witch Academia",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/lwa.png"
+        image: "lwa.png"
     },
     {
         name: "Your Lie in April",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/your_lie_in_april.png"
+        image: "your_lie_in_april.png"
     },
     {
         name: "Black Clover",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/black_clover.png"
+        image: "black_clover.png"
     },
     {
         name: "K-ON!",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/k-on.png"
+        image: "k-on.png"
     },
     {
         name: "Haikyuu!!",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/haikyuu.png"
+        image: "haikyuu.png"
     },
     {
         name: "Hibike Euphonium",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/hibike_euphonium.png"
+        image: "hibike_euphonium.png"
     },
     {
         name: "Kakegurui",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/kakegurui.png"
+        image: "kakegurui.png"
     },
     {
         name: "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/sbywbgsnywm.png"
+        image: "sbywbgsnywm.png"
     },
     {
         name: "Jujutsu Kaisen",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/jujutsu_kaisen.png"
+        image: "jujutsu_kaisen.png"
     },
     {
         name: "Sora yori mo Tooi Basho",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/sora_yori.png"
+        image: "sora_yori.png"
     },
     {
         name: "Kobayashi-san Chi no Maid Dragon",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/kobayashi-san.png"
+        image: "kobayashi-san.png"
     },
     {
         name: "Jojo's Bizarre Adventure",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/jjba.png"
+        image: "jjba.png"
     },
     {
         name: "Wonder Egg Priority",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/wep.png"
+        image: "wep.png"
     },
     {
         name: "Anohana",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/anohana.png"
+        image: "anohana.png"
     },
     {
         name: "Fate/Apocrypha",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/fat-apocrypha.png"
+        image: "fat-apocrypha.png"
     },
     {
         name: "Yuru Camp",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/yuru_camp.png"
+        image: "yuru_camp.png"
     },
     {
         name: "Majo no Tabitabi",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/majo_no_tabitabi.png"
+        image: "majo_no_tabitabi.png"
     },
     {
         name: "Naruto",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/naruto.png"
+        image: "naruto.png"
     },
     {
         name: "Adachi to Shimamura",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/adachi_to_shimamura_(anime).png"
+        image: "adachi_to_shimamura_(anime).png"
     },
     {
         name: "Adachi to Shimamura",
         type: "Manga",
         status: "Not Read",
-        image: "./assets/images/adachi_to_shimamura_(manga).png"
+        image: "adachi_to_shimamura_(manga).png"
     },
     {
         name: "Komi-san wa, Komyushou Desu",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/komi-san.png"
+        image: "komi-san.png"
     },
     {
         name: "Menhera Shoujo Kurumi-chan",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/kurumi-chan.png"
+        image: "kurumi-chan.png"
     },
     {
         name: "Bloom Into You",
         type: "Manga",
         status: "Not Read",
-        image: "./assets/images/bloom_into_you.png"
+        image: "bloom_into_you.png"
     },
     {
         name: "Science Fell in Love, So I Tried to Prove It",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Spy x Family",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/sxf.png"
+        image: "sxf.png"
     },
     {
         name: "Jibaku Shōnen Hanako-kun",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Link Click",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Classroom of the Elite",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Non Non Biyori",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Hōseki no Kuni",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "RWBY",
         type: "Animated Series",
         status: "Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "RWBY: Ice Queendom",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "RWBY Anthology",
         type: "Manga",
         status: "Read the first volume",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Lycoris Recoil",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Oregairu",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Bocchi the Rock!",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Beyond the Boundary",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Mobile Suit Gundam: The Witch from Mercury",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Domestic na Kanojo",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Kimi no Na wa.",
         type: "Anime Movie",
         status: "Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Kimi no Na wa.",
         type: "Manga",
         status: "Read",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Tenki no Ko",
         type: "Anime Movie",
         status: "Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Kimi no Suizō o Tabetai",
         type: "Anime Movie",
         status: "Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Bubble",
         type: "Anime Movie",
         status: "Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Kase-san Shirīzu",
         type: "Anime Movie",
         status: "Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Asagao to Kase-san / Yamada to Kase-san",
         type: "Manga",
         status: "Read",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Suzume no Tojimari",
         type: "Anime Movie",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "A Silent Voice",
         type: "Anime Movie",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Arcane",
         type: "Animated Series",
         status: "Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Steven Universe",
         type: "Animated Series",
         status: "Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Persona 5: The Animation",
         type: "Anime Series",
         status: "Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Persona 5",
         type: "Manga",
         status: "Not Read",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Stranger Things",
         type: "Series",
         status: "Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Adam by Eve: A Live in Animation",
         type: "Live Action Movie",
         status: "Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "The Super Mario Bros. Movie",
         type: "Animated Movie",
         status: "Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Alter Ego",
         type: "Manga",
         status: "Read",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Noel y June",
         type: "Manga",
         status: "Not yet released",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Sirius",
         type: "Manga",
         status: "Read first chapter",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Déjame que te cuente...",
         type: "Book",
         status: "I think I finished it",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Mirai Nikki",
         type: "Anime Movie",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Another",
         type: "Anime Movie",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Ranking of Kings",
         type: "Anime Movie",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Breaking Bad",
         type: "Series",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Chilling Adventures of Sabrina",
         type: "Series",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "The Owl House",
         type: "Animated Series",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "You",
         type: "Series",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Cunk on Earth",
         type: "Comedy Documentary",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Cyberpunk: Edgerunners",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Given",
         type: "Manga",
         status: "Not Read",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Sasaki to Miyano",
         type: "Manga",
         status: "Not Read",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "I'm in Love with the Villainess",
         type: "Manga",
         status: "Not Read",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Whisper Me a Love Song",
         type: "Manga",
         status: "Not Read",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "I Married My Best Friend To Shut My Parents Up",
         type: "Manga",
         status: "Not Read",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Lonely Girl ni Sakaraenai",
         type: "Manga",
         status: "Not Read",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Alcohol Yuri Anthology: Strong!",
         type: "Manga",
         status: "Not Read",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Throw Away the Suit Together",
         type: "Manga",
         status: "Not Read",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Hyouka",
         type: "Anime Series",
         status: "Not Seen",
-        image: "./assets/images/"
+        image: ""
     },
     {
         name: "Why is my crush so hard on me?",
         type: "Doujin Manga",
         status: "Read",
-        image: "./assets/images/"
+        image: ""
     }
 ];
 
@@ -561,7 +561,7 @@ document.write('</div>');
 library.forEach(function (item) {
     document.write(`
         <div class="library-container">
-          <img class="library-image" src="${item.image}">
+          <img class="library-image" src="./assets/images/${item.image}">
           <div class="library-info">
             - ${item.name}<br>- ${item.type}<br>- ${item.status}
           </div>
