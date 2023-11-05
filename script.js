@@ -482,7 +482,7 @@ const library = [
     {
         name: "I Married My Best Friend To Shut My Parents Up",
         type: "Manga",
-        status: "Not Read",
+        status: "Read",
         image: ""
     },
     {
@@ -523,8 +523,16 @@ const links = [
         URL: "./piano/index.html"
     },
     {
+        label: "AniWave",
+        URL: "https://aniwave.to/"
+    },
+    {
+        label: "MangaFire",
+        URL: "https://mangafire.to/"
+    },
+    {
         label: "Steven Universe Archive",
-        URL: "http://nekit.sytes.net/files/gems"
+        URL: "http://nekit.sytes.net/files/gems/"
     },
     {
         label: "Astronomy Picture of the Day",
@@ -532,15 +540,15 @@ const links = [
     },
     {
         label: "Wii Softmodding Guide",
-        URL: "https://wii.guide"
+        URL: "https://wii.guide/"
     },
     {
         label: "Vimm's Vault",
-        URL: "https://vimm.net/vault"
+        URL: "https://vimm.net/vault/"
     },
     {
         label: "Nintendo Roms",
-        URL: "https://r-roms.gitlab.io/megathread/sections/nintendo"
+        URL: "https://r-roms.gitlab.io/megathread/sections/nintendo/"
     }
 ];
 
