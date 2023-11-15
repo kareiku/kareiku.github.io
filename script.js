@@ -403,19 +403,19 @@ const library = [
     },
     {
         name: "Mirai Nikki",
-        type: "Anime Movie",
+        type: "Anime Series",
         status: "Not Seen",
         image: ""
     },
     {
         name: "Another",
-        type: "Anime Movie",
+        type: "Anime Series",
         status: "Not Seen",
         image: ""
     },
     {
         name: "Ranking of Kings",
-        type: "Anime Movie",
+        type: "Anime Series",
         status: "Not Seen",
         image: ""
     },
@@ -476,7 +476,7 @@ const library = [
     {
         name: "Whisper Me a Love Song",
         type: "Manga",
-        status: "Not Read",
+        status: "Currently reading...",
         image: ""
     },
     {
