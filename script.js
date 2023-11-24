@@ -8,14 +8,14 @@ const library = [
     {
         name: "Sword Art Online",
         type: "Anime Series",
-        status: "Watched Seasons 1-2",
-        image: "sao.png"
+        status: "Seen Seasons 1-2",
+        image: "sword_art_online.png"
     },
     {
         name: "No Game No Life",
         type: "Anime Series",
         status: "Seen",
-        image: "ngnl.png"
+        image: "no_game_no_life.png"
     },
     {
         name: "Death Note",
@@ -27,13 +27,13 @@ const library = [
         name: "Shingeki no Kyojin",
         type: "Anime Series",
         status: "Last Season Remaining",
-        image: "snk.png"
+        image: "shingeki_no_kyojin.png"
     },
     {
         name: "Re:Zero",
         type: "Anime Series",
         status: "Seen",
-        image: "re-zero.png"
+        image: "re_zero.png"
     },
     {
         name: "Blue Exorcist",
@@ -51,30 +51,30 @@ const library = [
         name: "Little Witch Academia",
         type: "Anime Series",
         status: "Seen",
-        image: "lwa.png"
+        image: "little_witch_academia.png"
     },
     {
         name: "Your Lie in April",
         type: "Anime Series",
-        status: "Not Seen",
+        status: "Unseen",
         image: "your_lie_in_april.png"
     },
     {
         name: "Black Clover",
         type: "Anime Series",
-        status: "Not Seen",
+        status: "Unseen",
         image: "black_clover.png"
     },
     {
         name: "K-ON!",
         type: "Anime Series",
         status: "Seen",
-        image: "k-on.png"
+        image: "keion.png"
     },
     {
         name: "Haikyuu!!",
         type: "Anime Series",
-        status: "Not Seen",
+        status: "Unseen",
         image: "haikyuu.png"
     },
     {
@@ -93,12 +93,12 @@ const library = [
         name: "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
         type: "Anime Series",
         status: "Seen",
-        image: "sbywbgsnywm.png"
+        image: "bunny_girl_senpai.png"
     },
     {
         name: "Jujutsu Kaisen",
         type: "Anime Series",
-        status: "Not Seen",
+        status: "Unseen",
         image: "jujutsu_kaisen.png"
     },
     {
@@ -116,14 +116,14 @@ const library = [
     {
         name: "Jojo's Bizarre Adventure",
         type: "Anime Series",
-        status: "Not Seen",
-        image: "jjba.png"
+        status: "Unseen",
+        image: "jojos.png"
     },
     {
         name: "Wonder Egg Priority",
         type: "Anime Series",
         status: "Seen",
-        image: "wep.png"
+        image: "wonder_egg_priority.png"
     },
     {
         name: "Anohana",
@@ -132,40 +132,34 @@ const library = [
         image: "anohana.png"
     },
     {
-        name: "Fate/Apocrypha",
-        type: "Anime Series",
-        status: "Not Seen",
-        image: "fat-apocrypha.png"
-    },
-    {
         name: "Yuru Camp",
         type: "Anime Series",
-        status: "Not Seen",
+        status: "Unseen",
         image: "yuru_camp.png"
     },
     {
         name: "Majo no Tabitabi",
         type: "Anime Series",
-        status: "Not Seen",
+        status: "Unseen",
         image: "majo_no_tabitabi.png"
     },
     {
         name: "Naruto",
         type: "Anime Series",
-        status: "Not Seen",
+        status: "Unseen",
         image: "naruto.png"
     },
     {
         name: "Adachi to Shimamura",
         type: "Anime Series",
-        status: "Not Seen",
-        image: "adachi_to_shimamura_(anime).png"
+        status: "Unseen",
+        image: "adachi_to_shimamura.png"
     },
     {
         name: "Adachi to Shimamura",
         type: "Manga",
-        status: "Not Read",
-        image: "adachi_to_shimamura_(manga).png"
+        status: "Unread",
+        image: "adachi_to_shimamura.png"
     },
     {
         name: "Komi-san wa, Komyushou Desu",
@@ -176,344 +170,367 @@ const library = [
     {
         name: "Menhera Shoujo Kurumi-chan",
         type: "Anime Series",
-        status: "Not Seen",
+        status: "Unseen",
+        image: "kurumi-chan.png"
+    },
+    {
+        name: "Menhera Shoujo Kurumi-chan",
+        type: "Manga",
+        status: "Unread",
         image: "kurumi-chan.png"
     },
     {
         name: "Bloom Into You",
         type: "Manga",
-        status: "Not Read",
+        status: "Unread",
         image: "bloom_into_you.png"
+    },
+    {
+        name: "Bloom Into You Antology",
+        type: "Manga",
+        status: "Unread",
+        image: "bloom_into_you_antology.png"
     },
     {
         name: "Science Fell in Love, So I Tried to Prove It",
         type: "Anime Series",
         status: "Seen",
-        image: ""
+        image: "science_fell_in_love.png"
     },
     {
         name: "Spy x Family",
         type: "Anime Series",
         status: "Seen",
-        image: "sxf.png"
+        image: "spy_x_family.png"
     },
     {
         name: "Jibaku Shōnen Hanako-kun",
         type: "Anime Series",
         status: "Seen",
-        image: ""
+        image: "hanako-kun.png"
     },
     {
         name: "Link Click",
         type: "Anime Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "link_click.png"
     },
     {
         name: "Classroom of the Elite",
         type: "Anime Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "classroom_of_the_elite.png"
     },
     {
         name: "Non Non Biyori",
         type: "Anime Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "non_non_biyori.png"
     },
     {
         name: "Hōseki no Kuni",
         type: "Anime Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "hoseki_no_kuni.png"
     },
     {
         name: "RWBY",
         type: "Animated Series",
         status: "Seen",
-        image: ""
+        image: "rwby.png"
     },
     {
         name: "RWBY: Ice Queendom",
         type: "Anime Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "rwby_ice_queendom.png"
     },
     {
         name: "RWBY Anthology",
         type: "Manga",
         status: "Read the first volume",
-        image: ""
+        image: "rwby_antonoly.png"
     },
     {
         name: "Lycoris Recoil",
         type: "Anime Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "lycoris_recoil.png"
     },
     {
         name: "Oregairu",
         type: "Anime Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "oregairu.png"
     },
     {
         name: "Bocchi the Rock!",
         type: "Anime Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "bocchi.png"
     },
     {
         name: "Beyond the Boundary",
         type: "Anime Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "kyokai_no_kanata.png"
     },
     {
         name: "Mobile Suit Gundam: The Witch from Mercury",
         type: "Anime Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "the_witch_from_mercury.png"
     },
     {
         name: "Domestic na Kanojo",
         type: "Anime Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "domestic_no_kanojo.png"
     },
     {
         name: "Kimi no Na wa.",
         type: "Anime Movie",
         status: "Seen",
-        image: ""
+        image: "kimi_no_na_wa.png"
     },
     {
         name: "Kimi no Na wa.",
         type: "Manga",
         status: "Read",
-        image: ""
+        image: "kimi_no_na_wa.png"
     },
     {
         name: "Tenki no Ko",
         type: "Anime Movie",
         status: "Seen",
-        image: ""
+        image: "tenki_no_ko.png"
     },
     {
         name: "Kimi no Suizō o Tabetai",
         type: "Anime Movie",
         status: "Seen",
-        image: ""
+        image: "kimi_no_suizo_o_tabetai.png"
     },
     {
         name: "Bubble",
         type: "Anime Movie",
         status: "Seen",
-        image: ""
+        image: "bubble.png"
     },
     {
         name: "Kase-san Shirīzu",
         type: "Anime Movie",
         status: "Seen",
-        image: ""
+        image: "asagao_to_kase-san.png"
     },
     {
         name: "Asagao to Kase-san / Yamada to Kase-san",
         type: "Manga",
         status: "Read",
-        image: ""
+        image: "yamada_to_kase-san.png"
     },
     {
         name: "Suzume no Tojimari",
         type: "Anime Movie",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "suzume_no_tojimari.png"
     },
     {
         name: "A Silent Voice",
         type: "Anime Movie",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "a_silent_voice.png"
     },
     {
         name: "Arcane",
         type: "Animated Series",
         status: "Seen",
-        image: ""
+        image: "arcane.png"
     },
     {
         name: "Steven Universe",
         type: "Animated Series",
         status: "Seen",
-        image: ""
+        image: "steven_universe.png"
     },
     {
         name: "Persona 5: The Animation",
         type: "Anime Series",
         status: "Seen",
-        image: ""
+        image: "P5A.png"
     },
     {
         name: "Persona 5",
         type: "Manga",
-        status: "Not Read",
-        image: ""
-    },
-    {
-        name: "Stranger Things",
-        type: "Series",
-        status: "Seen",
-        image: ""
+        status: "Unread",
+        image: "P5_(manga).png"
     },
     {
         name: "Adam by Eve: A Live in Animation",
         type: "Live Action Movie",
         status: "Seen",
-        image: ""
+        image: "adam_by_eve.png"
     },
     {
         name: "The Super Mario Bros. Movie",
         type: "Animated Movie",
         status: "Seen",
-        image: ""
+        image: "super_mario_movie.png"
     },
     {
         name: "Alter Ego",
         type: "Manga",
         status: "Read",
-        image: ""
+        image: "alter_ego.png"
     },
     {
         name: "Noel y June",
         type: "Manga",
-        status: "Not yet released",
-        image: ""
+        status: "Unreleased",
+        image: "noel_y_june.png"
     },
     {
         name: "Sirius",
         type: "Manga",
         status: "Read first chapter",
-        image: ""
+        image: "sirius.png"
     },
     {
         name: "Déjame que te cuente...",
         type: "Book",
         status: "I think I finished it",
-        image: ""
+        image: "dejame_que_te_cuente.png"
     },
     {
         name: "Mirai Nikki",
         type: "Anime Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "mirai_nikki.png"
     },
     {
         name: "Another",
         type: "Anime Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "another.png"
     },
     {
         name: "Ranking of Kings",
         type: "Anime Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "ranking_of_kings.png"
     },
     {
         name: "Breaking Bad",
         type: "Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "breaking_bad.png"
     },
     {
         name: "Chilling Adventures of Sabrina",
         type: "Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "sabrina.png"
     },
     {
         name: "The Owl House",
         type: "Animated Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "the_owl_house.png"
     },
     {
         name: "You",
         type: "Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "you.png"
     },
     {
         name: "Cunk on Earth",
         type: "Comedy Documentary",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "cunk_on_earth.png"
     },
     {
         name: "Cyberpunk: Edgerunners",
         type: "Anime Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "cyberpunk_edgerunners.png"
     },
     {
         name: "Given",
         type: "Manga",
-        status: "Not Read",
-        image: ""
+        status: "Unread",
+        image: "given_(manga).png"
+    },
+    {
+        name: "Given",
+        type: "Anime",
+        status: "Unseen",
+        image: "given_(anime).png"
     },
     {
         name: "Sasaki to Miyano",
         type: "Manga",
-        status: "Not Read",
-        image: ""
+        status: "Unread",
+        image: "sasaki_to_miyano.png"
     },
     {
         name: "I'm in Love with the Villainess",
         type: "Manga",
-        status: "Not Read",
-        image: ""
+        status: "Unread",
+        image: "im_in_love_with_the_villainess.png"
     },
     {
         name: "Whisper Me a Love Song",
         type: "Manga",
-        status: "Currently reading...",
-        image: ""
+        status: "Read and waitin' for more~",
+        image: "whisper_me_a_love_song.png"
+    }, {
+        name: "Whisper Me a Love Song",
+        type: "Anime",
+        status: "Unreleased",
+        image: "whisper_me_a_love_song.png"
     },
     {
         name: "I Married My Best Friend To Shut My Parents Up",
         type: "Manga",
         status: "Read",
-        image: ""
+        image: "i_married_my_best_friend_to_shut_my_parents_up.png"
     },
     {
         name: "Lonely Girl ni Sakaraenai",
         type: "Manga",
-        status: "Not Read",
-        image: ""
+        status: "Unread",
+        image: "lonely_girl_ni_sakaraenai.png"
     },
     {
         name: "Alcohol Yuri Anthology: Strong!",
         type: "Manga",
-        status: "Not Read",
-        image: ""
+        status: "Startin'...",
+        image: "alcohol_yuri_anthology.png"
     },
     {
         name: "Throw Away the Suit Together",
         type: "Manga",
-        status: "Not Read",
-        image: ""
+        status: "Unread",
+        image: "throw_away_the_suit_together.png"
     },
     {
         name: "Hyouka",
         type: "Anime Series",
-        status: "Not Seen",
-        image: ""
+        status: "Unseen",
+        image: "hyouka.png"
     },
     {
         name: "Why is my crush so hard on me?",
         type: "Doujin Manga",
         status: "Read",
-        image: ""
+        image: "why_is_my_crush_so_hard_on_me.png"
+    },
+    {
+        name: "Syrup: A Yuri Anthology",
+        type: "Manga",
+        status: "Unread",
+        image: "syrup_a_yuri_anthology.png"
     }
 ];
 
