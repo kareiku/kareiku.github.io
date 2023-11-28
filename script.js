@@ -605,27 +605,36 @@ const links = [
     }
 ];
 
-document.write('<div class="links-container">');
-document.write('<div class="links-wrapper">');
-document.write('<div id="links-container">');
+document.write('<input type="text" id="searchbox" onkeyup="searchFunction()" placeholder="Search for items...">');
+document.write('<ul id="list">');
+
 links.forEach(function (link) {
     document.write(`
-        <div class="link-item">
-          <input type="button" value="${link.label}" onclick='location.href="${link.URL}"' class="link">
-        </div>
-    `);
+    <li><a href="${link.URL}">${link.label}</a></li>
+`);
 });
-document.write('</div>');
-document.write('</div>');
-document.write('</div>');
 
 library.forEach(function (item) {
     document.write(`
-        <div class="library-container">
-          <img class="library-image" src="./assets/images/${item.image}">
-          <div class="library-info">
-            - ${item.name}<br>- ${item.type}<br>- ${item.status}
-          </div>
-        </div>
+        <li><a>${item.name}</a></li>
     `);
 });
+document.write('</ul>');
+
+function searchFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById('searchbox');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("list");
+    li = ul.getElementsByTagName('li');
+
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
