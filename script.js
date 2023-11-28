@@ -476,7 +476,7 @@ const library = [
     {
         name: "I'm in Love with the Villainess",
         type: "Manga",
-        status: "Unread",
+        status: "Started",
         image: "im_in_love_with_the_villainess.png"
     },
     {
@@ -505,7 +505,7 @@ const library = [
     {
         name: "Alcohol Yuri Anthology: Strong!",
         type: "Manga",
-        status: "Startin'...",
+        status: "Read",
         image: "alcohol_yuri_anthology.png"
     },
     {
@@ -531,6 +531,42 @@ const library = [
         type: "Manga",
         status: "Unread",
         image: "syrup_a_yuri_anthology.png"
+    },
+    {
+        name: "The Girl Doesn't Know Her heat.",
+        type: "Manga",
+        status: "Unread",
+        image: "the_girl_doesnt_know_hew_heat.png"
+    },
+    {
+        name: "Whispered Woods",
+        type: "Manga",
+        status: "Unread",
+        image: "whispered_woods.png"
+    },
+    {
+        name: "My Wish Is to Fall in Love Until You Die.",
+        type: "Manga",
+        status: "Unread",
+        image: "my_wish_is_to_fall_in_love_until_you_die.png"
+    },
+    {
+        name: "I Can't Believe I Slept With You!",
+        type: "Manga",
+        status: "Unread",
+        image: "i_cant_believe_i_sleep_with_you.png"
+    },
+    {
+        name: "The Summer You Were There",
+        type: "Manga",
+        status: "Unread",
+        image: "the_summer_you_were_there.png"
+    },
+    {
+        name: "I Can't Refuse Lonely Girl's Request.",
+        type: "Manga",
+        status: "Unread",
+        image: "i_cant_refuse_lonely_girls_request.png"
     }
 ];
 
