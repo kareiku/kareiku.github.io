@@ -66,7 +66,7 @@ const library = [
         image: "black_clover.png"
     },
     {
-        name: "K-ON!",
+        name: "K-On!",
         type: "Anime Series",
         status: "Seen",
         image: "keion.png"
