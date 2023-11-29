@@ -13,6 +13,10 @@ html {
     background: rosybrown;
 }
 
+body {
+    text-align: center;
+}
+
 h1 {
     position: relative;
     display: block;
@@ -23,37 +27,72 @@ h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    text-align: center;
 }
 
 #searchbox {
-    background-image: url('/css/searchicon.png');
-    background-position: 10px 12px;
-    background-repeat: no-repeat;
-    width: 100%;
+    width: 80%;
     font-size: 16px;
-    padding: 12px 20px 12px 40px;
-    border: 1px solid #ddd;
+    padding: 12px 20px 12px 20px;
+    border: none;
+    border-radius: 5px;
     margin-bottom: 12px;
 }
 
-#list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.library-container {
+    display: inline-block;
+    margin: 7px;
+    position: relative;
 }
 
-#list li a {
-    border: 1px solid #ddd;
-    margin-top: -1px;
-    background-color: #f6f6f6;
-    padding: 12px;
+.library-image {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    position: relative;
+}
+
+.library-info {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    position: absolute;
+    background: #fff;
+    color: #333;
+    padding: 7px;
+    width: 286px;
+    border: none;
+    border-radius: 0 0 7px 7px;
+    left: 0;
+    bottom: 3px;
+    text-align: left;
+}
+
+.library-image:hover+.library-info {
+    opacity: 1;
+}
+
+.link-container {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.link-button {
+    background-color: #d4586b;
+    color: #f0f0f0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
     text-decoration: none;
-    font-size: 18px;
-    color: black;
-    display: block;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
 }
 
-#list li a:hover:not(.header) {
-    background-color: #eee;
+.link-button:hover {
+    background-color: #e4586b;
+    color: #f0f0f0;
 }

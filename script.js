@@ -527,6 +527,12 @@ const library = [
         image: "why_is_my_crush_so_hard_on_me.png"
     },
     {
+        name: "A Hundred Scenes of Girls' Love",
+        type: "Doujin Manga",
+        status: "Read",
+        image: "a_hundred_scenes_of_girls_love"
+    },
+    {
         name: "Syrup: A Yuri Anthology",
         type: "Manga",
         status: "Unread",
@@ -606,35 +612,58 @@ const links = [
 ];
 
 document.write('<input type="text" id="searchbox" onkeyup="searchFunction()" placeholder="Search for items...">');
-document.write('<ul id="list">');
 
+document.write('<div id="links">');
 links.forEach(function (link) {
     document.write(`
-    <li><a href="${link.URL}">${link.label}</a></li>
-`);
-});
-
-library.forEach(function (item) {
-    document.write(`
-        <li><a>${item.name}</a></li>
+      <div class="link-container" onclick="window.location='${link.URL}'">
+        <div class="link-button">
+          ${link.label}
+        </div>
+      </div>
     `);
 });
-document.write('</ul>');
+document.write('</div>');
+
+document.write('<div id="library">');
+library.forEach(function (item) {
+    document.write(`
+        <div class="library-container">
+          <img class="library-image" src="./assets/images/${item.image}">
+          <div class="library-info">
+            <a class="library-name">- ${item.name}</a><br>
+            - ${item.type}<br>- ${item.status}
+          </div>
+        </div>
+    `);
+});
+document.write('</div>');
 
 function searchFunction() {
-    var input, filter, ul, li, a, i, txtValue;
+    var input, filter, libraryContainer, linksContainer, i, txtValue;
     input = document.getElementById('searchbox');
     filter = input.value.toUpperCase();
-    ul = document.getElementById("list");
-    li = ul.getElementsByTagName('li');
 
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
+    libraryContainer = document.getElementById("library");
+    var libraryItems = libraryContainer.getElementsByClassName('library-container');
+    for (i = 0; i < libraryItems.length; i++) {
+        var nameLib = libraryItems[i].getElementsByClassName('library-name')[0];
+        nameValue = nameLib.innerText || nameLib.textContent;
+        if (nameValue.toUpperCase().indexOf(filter) > -1) {
+            libraryItems[i].style.display = "";
         } else {
-            li[i].style.display = "none";
+            libraryItems[i].style.display = "none";
+        }
+    }
+
+    linksContainer = document.getElementById("links");
+    var linkItems = linksContainer.getElementsByClassName('link-button');
+    for (i = 0; i < linkItems.length; i++) {
+        txtValue = linkItems[i].innerText || linkItems[i].textContent;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            linkItems[i].style.display = "";
+        } else {
+            linkItems[i].style.display = "none";
         }
     }
 }
