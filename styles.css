@@ -38,6 +38,31 @@ h1 {
     margin-bottom: 12px;
 }
 
+.link-container {
+    display: inline-block;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.link-button {
+    background-color: #d4586b;
+    color: #f0f0f0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.link-button:hover {
+    background-color: #e4586b;
+    color: #f0f0f0;
+}
+
 .library-container {
     display: inline-block;
     margin: 7px;
@@ -70,29 +95,4 @@ h1 {
 
 .library-image:hover+.library-info {
     opacity: 1;
-}
-
-.link-container {
-    display: inline-block;
-    margin: 5px;
-    cursor: pointer;
-}
-
-.link-button {
-    background-color: #d4586b;
-    color: #f0f0f0;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-}
-
-.link-button:hover {
-    background-color: #e4586b;
-    color: #f0f0f0;
 }
