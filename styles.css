@@ -29,7 +29,13 @@ h1 {
     padding-bottom: 20px;
 }
 
-#searchbox {
+footer {
+    margin: 10px;
+    color: #222;
+    font-size: 20px;
+}
+
+#filterbox {
     width: 80%;
     font-size: 16px;
     padding: 12px 20px 12px 20px;
@@ -70,8 +76,8 @@ h1 {
 }
 
 .library-image {
-    width: 300px;
-    height: auto;
+    width: 280px;
+    height: 400px;
     cursor: pointer;
     border: none;
     border-radius: 7px;
