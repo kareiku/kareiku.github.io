@@ -29,12 +29,6 @@ h1 {
     padding-bottom: 20px;
 }
 
-footer {
-    margin: 10px;
-    color: #222;
-    font-size: 20px;
-}
-
 #filterbox {
     width: 80%;
     font-size: 16px;
@@ -71,34 +65,23 @@ footer {
 
 .library-container {
     display: inline-block;
-    margin: 7px;
+    margin: 2px;
     position: relative;
 }
 
 .library-image {
-    width: 280px;
-    height: 400px;
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
     cursor: pointer;
     border: none;
     border-radius: 7px;
     position: relative;
 }
 
-.library-info {
-    opacity: 0;
-    transition: opacity 0.2s ease-in-out;
-    position: absolute;
-    background: #fff;
-    color: #333;
-    padding: 7px;
-    width: 286px;
-    border: none;
-    border-radius: 0 0 7px 7px;
-    left: 0;
-    bottom: 3px;
-    text-align: left;
-}
-
-.library-image:hover+.library-info {
-    opacity: 1;
+#copyright {
+    margin: 10px;
+    color: #222;
+    font-size: 20px;
 }
