@@ -36,7 +36,8 @@ const links = [
     { value: "Astronomy Picture of the Day", url: "https://apod.nasa.gov/apod/astropix.html" },
     { value: "Wii Softmodding Guide", url: "https://wii.guide/" },
     { value: "Vimm's Vault", url: "https://vimm.net/vault/" },
-    { value: "Nintendo Roms", url: "https://r-roms.gitlab.io/megathread/sections/nintendo/" }
+    { value: "Nintendo Roms", url: "https://r-roms.gitlab.io/megathread/sections/nintendo/" },
+    { value: "DnD Books", url: "https://github.com/kwmorris/DnD/blob/master/5e/Books/" }
 ];
 
 const library = [
