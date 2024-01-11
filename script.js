@@ -37,7 +37,7 @@ const links = [
     { value: "Wii Softmodding Guide", url: "https://wii.guide/" },
     { value: "Vimm's Vault", url: "https://vimm.net/vault/" },
     { value: "Nintendo Roms", url: "https://r-roms.gitlab.io/megathread/sections/nintendo/" },
-    { value: "DnD Books", url: "https://github.com/kwmorris/DnD/blob/master/5e/Books/" }
+    { value: "My Github Stars", url: "https://github.com/kareiku?tab=stars" }
 ];
 
 const library = [
