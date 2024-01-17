@@ -133,12 +133,15 @@ const library = [
     { title: "A Hundred Scenes of Girls' Love", src: "https://static.bunnycdn.ru/i/cache/images/3/3b/3b9e6bbaf34fc6a0a09bf15a984149db.jpg" },
     { title: "Syrup: A Yuri Anthology", src: "https://cdn.myanimelist.net/images/manga/3/247345l.jpg" },
     { title: "The Girl Doesn't Know Her Heart.", src: "https://cdn.myanimelist.net/images/manga/3/246368l.jpg" },
-    { title: "Whispered Woods", src: "https://cdn.myanimelist.net/images/manga/2/217658l.jpg" },
+    { title: "Whispered Words", src: "https://cdn.myanimelist.net/images/manga/2/217658l.jpg" },
     { title: "My Wish Is to Fall in Love Until You Die.", src: "https://cdn.myanimelist.net/images/manga/1/215753l.jpg" },
     { title: "I Can't Believe I Slept With You!", src: "https://cdn.myanimelist.net/images/manga/2/226062l.jpg" },
     { title: "The Summer You Were There", src: "https://cdn.myanimelist.net/images/manga/1/239675l.jpg" },
     { title: "Kimi wa Natsu no Naka", src: "https://cdn.myanimelist.net/images/manga/3/206562l.jpg" },
     { title: "Citrus", src: "https://cdn.myanimelist.net/images/manga/3/185905l.jpg" },
+    { title: "Citrus+", src: "https://cdn.myanimelist.net/images/manga/2/244143l.jpg" },
+    { title: "Girl Friends", src: "https://cdn.myanimelist.net/images/manga/3/262292l.jpg" },
+    { title: "The Two of Them Are Pretty Much Like This", src: "https://cdn.myanimelist.net/images/manga/1/236200l.jpg" },
 ];
 
 document.write('<input type="text" id="filterbox" onkeyup="filterFunction()" placeholder="Search in the libary...">');
