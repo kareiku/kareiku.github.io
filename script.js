@@ -37,7 +37,7 @@ const links = [
     { value: "Wii Softmodding Guide", url: "https://wii.guide/" },
     { value: "Vimm's Vault", url: "https://vimm.net/vault/" },
     { value: "Nintendo Roms", url: "https://r-roms.gitlab.io/megathread/sections/nintendo/" },
-    { value: "My Github Stars", url: "https://github.com/kareiku?tab=stars" }
+    { value: "My Github Stars", url: "https://github.com/kareiku?tab=stars" },
 ];
 
 const library = [
@@ -138,6 +138,7 @@ const library = [
     { title: "I Can't Believe I Slept With You!", src: "https://cdn.myanimelist.net/images/manga/2/226062l.jpg" },
     { title: "The Summer You Were There", src: "https://cdn.myanimelist.net/images/manga/1/239675l.jpg" },
     { title: "Kimi wa Natsu no Naka", src: "https://cdn.myanimelist.net/images/manga/3/206562l.jpg" },
+    { title: "Citrus", src: "https://cdn.myanimelist.net/images/manga/3/185905l.jpg" },
 ];
 
 document.write('<input type="text" id="filterbox" onkeyup="filterFunction()" placeholder="Search in the libary...">');
