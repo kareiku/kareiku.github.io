@@ -91,8 +91,8 @@ const library = [
     { title: "Domestic na Kanojo", src: "https://cdn.myanimelist.net/images/anime/1117/111599l.jpg" },
     { title: "Kimi no Na wa.", src: "https://cdn.myanimelist.net/images/anime/9/77484l.jpg" },
     { title: "Kimi no Na wa.", src: "https://cdn.myanimelist.net/images/manga/1/182270l.jpg" },
-    { title: "Tenki no Ko", src: "https://cdn.myanimelist.net/images/anime/1880/101146l.jpg" },
-    { title: "Kimi no Suizō wo Tabetai", src: "https://cdn.myanimelist.net/images/anime/11/90070l.jpg" },
+    { title: "Weathering with You", src: "https://cdn.myanimelist.net/images/anime/1880/101146l.jpg" },
+    { title: "I Want to Eat Your Pancreas", src: "https://cdn.myanimelist.net/images/anime/11/90070l.jpg" },
     { title: "Bubble", src: "https://cdn.myanimelist.net/images/anime/1011/121152l.jpg" },
     { title: "Kase-san Shirīzu", src: "https://cdn.myanimelist.net/images/anime/1578/94205l.jpg" },
     { title: "Asagao to Kase-san / Yamada to Kase-san", src: "https://cdn.myanimelist.net/images/manga/3/192176l.jpg" },
@@ -141,10 +141,36 @@ const library = [
     { title: "Citrus", src: "https://cdn.myanimelist.net/images/manga/3/185905l.jpg" },
     { title: "Citrus+", src: "https://cdn.myanimelist.net/images/manga/2/244143l.jpg" },
     { title: "Girl Friends", src: "https://cdn.myanimelist.net/images/manga/3/262292l.jpg" },
+    { title: "RWBY: Ice Queendom", src: "https://cdn.myanimelist.net/images/manga/2/291824l.jpg" },
+    { title: "RWBY Manga", src: "https://cdn.myanimelist.net/images/manga/2/196046l.jpg" },
+    { title: "RWBY: The Official Manga", src: "https://static.bunnycdn.ru/i/cache/images/d/d7/d703d7f67b56f91249c2605f0a9fb88b.jpg" },
+    { title: "Rondallas", src: "https://proassetspdlcom.cdnstatics2.com/usuaris/libros/thumbs/83d2e954-c4a9-43ca-9dfa-a166b0f6d1fe/d_1200_1200/portada_planeta-manga-rondallas__202206091029.webp" },
+    { title: "Good Game", src: "https://proassetspdlcom.cdnstatics2.com/usuaris/libros/thumbs/2168cef1-4a53-4cff-a06b-ccc63b870d39/d_1200_1200/portada_planeta-manga-good-game_blanca-mira_202106141000.webp" },
+    { title: "Kimi no Suizō wo Tabetai", src: "https://cdn.myanimelist.net/images/manga/2/191611l.jpg" },
+    { title: "Tenki no Ko", src: "https://cdn.myanimelist.net/images/manga/2/226128l.jpg" },
     { title: "The Two of Them Are Pretty Much Like This", src: "https://cdn.myanimelist.net/images/manga/1/236200l.jpg" },
+    { title: "The Sheep Princess In Wolf's Clothing", src: "https://cdn.myanimelist.net/images/manga/1/245341l.jpg" },
+    { title: "Failed Princesses", src: "https://cdn.myanimelist.net/images/manga/3/217480l.jpg" },
+    { title: "Did I Seriously Just Get Reincarnated as My Gag Character?!", src: "https://cdn.myanimelist.net/images/manga/1/238383l.jpg" },
+    { title: "Sekai de Ichiban Oppai ga Suki!", src: "https://cdn.myanimelist.net/images/manga/3/207219l.jpg" },
+    { title: "The Moon on a Rainy Night", src: "https://cdn.myanimelist.net/images/manga/3/253111l.jpg" },
+    { title: "Doughnuts Under a Crescent Moon", src: "https://cdn.myanimelist.net/images/manga/4/243540l.jpg" },
+    { title: "Snow Thaw & Love Letter", src: "https://cdn.myanimelist.net/images/manga/3/279048l.jpg" },
+    { title: "Kamiina Botan, Yoeru Sugata wa Yuri no Hana.", src: "https://cdn.myanimelist.net/images/manga/1/245171l.jpg" },
+    { title: "Spoil Me Plzzz Hinamori-san!", src: "https://cdn.myanimelist.net/images/manga/1/257268l.jpg" },
+    { title: "Futaribeya: A Room for Two", src: "https://cdn.myanimelist.net/images/manga/1/154836l.jpg" },
+    { title: "My Angel Childhood Friend was a Gal When We Met Again", src: "https://static.bunnycdn.ru/i/cache/images/4/48/48269f9f74b18795255a7a0a908dce25.jpg" },
+    { title: "There's No Freaking Wat I'll be Your Lover! Unless...", src: "https://cdn.myanimelist.net/images/manga/2/236547l.jpg" },
+    { title: "Making Progress on Yuri Before the Deadline", src: "https://cdn.myanimelist.net/images/manga/1/257681l.jpg" },
+    { title: "Hokenshitsu wa Futarikiri", src: "https://cdn.myanimelist.net/images/manga/1/270170l.jpg" },
+    { title: "The plain girl sitting next to me", src: "https://static.bunnycdn.ru/i/cache/images/2/2f/2f0135974be4d01005ea7cedef59d919.jpg" },
+    { title: "Android wa Keiken Ninzuu ni Hairimasu ka??", src: "https://cdn.myanimelist.net/images/manga/1/256252l.jpg" },
+    { title: "Marry A Girl Friend.", src: "https://cdn.myanimelist.net/images/manga/2/250277l.jpg" },
+    { title: "The Skirt Sings at the Landing", src: "https://cdn.myanimelist.net/images/manga/2/246831l.jpg" },
+    { title: "Tonari no Seki ga Suki na Hito Fatta: Gakusei Yuri Anthology", src: "https://cdn.myanimelist.net/images/manga/3/286683l.jpg" },
 ];
 
-document.write('<input type="text" id="filterbox" onkeyup="filterFunction()" placeholder="Search in the libary...">');
+document.write('<input type="text" id="filterbox" onkeyup="filterFunction()" placeholder="Search in the libary..." autofocus>');
 document.write('<div>');
 links.forEach(element => {
     document.write(`
