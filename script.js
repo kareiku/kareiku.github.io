@@ -168,6 +168,20 @@ const library = [
     { title: "Marry A Girl Friend.", src: "https://cdn.myanimelist.net/images/manga/2/250277l.jpg" },
     { title: "The Skirt Sings at the Landing", src: "https://cdn.myanimelist.net/images/manga/2/246831l.jpg" },
     { title: "Tonari no Seki ga Suki na Hito Fatta: Gakusei Yuri Anthology", src: "https://cdn.myanimelist.net/images/manga/3/286683l.jpg" },
+    { title: "NTR: Netsuzou Trap", src: "https://cdn.myanimelist.net/images/manga/1/158981l.jpg" },
+    { title: "Yuri Is My Job!", src: "https://cdn.myanimelist.net/images/manga/1/197358l.jpg" },
+    { title: "Minato Shouji Coin Laundry", src: "https://cdn.myanimelist.net/images/manga/3/251548l.jpg" },
+    { title: "Ichika, Bachika", src: "https://cdn.myanimelist.net/images/manga/1/225774l.jpg" },
+    { title: "Old-Fashioned Cupcake", src: "https://cdn.myanimelist.net/images/manga/1/235766l.jpg" },
+    { title: "Fragtime", src: "https://cdn.myanimelist.net/images/manga/3/118505l.jpg" },
+    { title: "Sakura Trick", src: "https://cdn.myanimelist.net/images/manga/1/172310l.jpg" },
+    { title: "Irresistible Person", src: "https://cdn.myanimelist.net/images/manga/3/240844l.jpg" },
+    { title: "How to Love a Secret You Can't Tell Anyone About", src: "https://cdn.myanimelist.net/images/manga/1/244108l.jpg" },
+    { title: "5 Seconds Before a Witch Falls in Love", src: "https://cdn.myanimelist.net/images/manga/2/235090l.jpg" },
+    { title: "After Hours", src: "https://cdn.myanimelist.net/images/manga/2/165028l.jpg" },
+    { title: "A Tropical Fish Yearns for Snow", src: "https://cdn.myanimelist.net/images/manga/2/248056l.jpg" },
+    { title: "40 made ni Shitai 10 no Koto", src: "https://cdn.myanimelist.net/images/manga/1/283512l.jpg" },
+    { title: "Sukeban to Tenkousei", src: "https://cdn.myanimelist.net/images/manga/1/257524l.jpg" },
 ];
 
 document.write('<input type="text" id="filterbox" onkeyup="filterFunction()" placeholder="Search in the libary..." autofocus>');
