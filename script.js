@@ -160,7 +160,7 @@ const library = [
     { title: "Spoil Me Plzzz Hinamori-san!", src: "https://cdn.myanimelist.net/images/manga/1/257268l.jpg" },
     { title: "Futaribeya: A Room for Two", src: "https://cdn.myanimelist.net/images/manga/1/154836l.jpg" },
     { title: "My Angel Childhood Friend was a Gal When We Met Again", src: "https://static.bunnycdn.ru/i/cache/images/4/48/48269f9f74b18795255a7a0a908dce25.jpg" },
-    { title: "There's No Freaking Wat I'll be Your Lover! Unless...", src: "https://cdn.myanimelist.net/images/manga/2/236547l.jpg" },
+    { title: "There's No Freaking Way I'll be Your Lover! Unless...", src: "https://cdn.myanimelist.net/images/manga/2/236547l.jpg" },
     { title: "Making Progress on Yuri Before the Deadline", src: "https://cdn.myanimelist.net/images/manga/1/257681l.jpg" },
     { title: "Hokenshitsu wa Futarikiri", src: "https://cdn.myanimelist.net/images/manga/1/270170l.jpg" },
     { title: "The plain girl sitting next to me", src: "https://static.bunnycdn.ru/i/cache/images/2/2f/2f0135974be4d01005ea7cedef59d919.jpg" },
@@ -182,6 +182,17 @@ const library = [
     { title: "A Tropical Fish Yearns for Snow", src: "https://cdn.myanimelist.net/images/manga/2/248056l.jpg" },
     { title: "40 made ni Shitai 10 no Koto", src: "https://cdn.myanimelist.net/images/manga/1/283512l.jpg" },
     { title: "Sukeban to Tenkousei", src: "https://cdn.myanimelist.net/images/manga/1/257524l.jpg" },
+    { title: "Cats and Sugar Bowls", src: "https://cdn.myanimelist.net/images/manga/2/256854l.jpg" },
+    { title: "Otherside Picnic", src: "https://cdn.myanimelist.net/images/manga/2/211279l.jpg" },
+    { title: "Oshi no Ko", src: "https://cdn.myanimelist.net/images/manga/3/233991l.jpg" },
+    { title: "The Moon on a Rainy Night", src: "https://cdn.myanimelist.net/images/manga/3/253111l.jpg" },
+    { title: "Living With My Brother's Wife", src: "https://cdn.myanimelist.net/images/manga/1/181118l.jpg" },
+    { title: "Inugami-san to Nekoyama-san", src: "https://cdn.myanimelist.net/images/manga/3/90515l.jpg" },
+    { title: "Yuri Hime Wildrose", src: "https://cdn.myanimelist.net/images/manga/1/4195l.jpg" },
+    { title: "Harmony", src: "https://cdn.myanimelist.net/images/manga/3/174755l.jpg" },
+    { title: "Bloom Into You (light novel)", src: "https://cdn.myanimelist.net/images/manga/3/222780l.jpg" },
+    { titlt: "I'm in Love with the Villainess (light novel)", src: "https://cdn.myanimelist.net/images/manga/1/253475l.jpg" },
+    { title: "After School Étude", src: "https://arechimanga.com/wp-content/uploads/2023/11/After-School-Etude-vol.1-scaled.jpg" },
 ];
 
 document.write('<input type="text" id="filterbox" onkeyup="filterFunction()" placeholder="Search in the libary..." autofocus>');
