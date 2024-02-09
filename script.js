@@ -191,7 +191,7 @@ const library = [
     { title: "Yuri Hime Wildrose", src: "https://cdn.myanimelist.net/images/manga/1/4195l.jpg" },
     { title: "Harmony", src: "https://cdn.myanimelist.net/images/manga/3/174755l.jpg" },
     { title: "Bloom Into You (light novel)", src: "https://cdn.myanimelist.net/images/manga/3/222780l.jpg" },
-    { titlt: "I'm in Love with the Villainess (light novel)", src: "https://cdn.myanimelist.net/images/manga/1/253475l.jpg" },
+    { title: "I'm in Love with the Villainess (light novel)", src: "https://cdn.myanimelist.net/images/manga/1/253475l.jpg" },
     { title: "After School Étude", src: "https://arechimanga.com/wp-content/uploads/2023/11/After-School-Etude-vol.1-scaled.jpg" },
 ];
 
