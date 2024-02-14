@@ -193,6 +193,9 @@ const library = [
     { title: "Bloom Into You (light novel)", src: "https://cdn.myanimelist.net/images/manga/3/222780l.jpg" },
     { title: "I'm in Love with the Villainess (light novel)", src: "https://cdn.myanimelist.net/images/manga/1/253475l.jpg" },
     { title: "After School Étude", src: "https://arechimanga.com/wp-content/uploads/2023/11/After-School-Etude-vol.1-scaled.jpg" },
+    { title: "I Love You So Much, I Hate You", src: "https://cdn.myanimelist.net/images/manga/3/224057l.jpg" },
+    { title: "SCHOOL ZONE GIRLS", src: "https://cdn.myanimelist.net/images/manga/3/228686l.jpg" },
+    { title: "How Do I Turn My Best Friend Into My Girlfriend?", src: "https://cdn.myanimelist.net/images/manga/1/280202l.jpg" },
 ];
 
 document.write('<input type="text" id="filterbox" onkeyup="filterFunction()" placeholder="Search in the libary..." autofocus>');
