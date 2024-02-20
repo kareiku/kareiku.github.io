@@ -196,6 +196,8 @@ const library = [
     { title: "I Love You So Much, I Hate You", src: "https://cdn.myanimelist.net/images/manga/3/224057l.jpg" },
     { title: "SCHOOL ZONE GIRLS", src: "https://cdn.myanimelist.net/images/manga/3/228686l.jpg" },
     { title: "How Do I Turn My Best Friend Into My Girlfriend?", src: "https://cdn.myanimelist.net/images/manga/1/280202l.jpg" },
+    { title: "Kageki Shoujo!!", src: "https://cdn.myanimelist.net/images/manga/2/167045l.jpg" },
+    { title: "Kageki Shoujo!! Season Zero", src: "https://cdn.myanimelist.net/images/manga/2/149763l.jpg" },
 ];
 
 document.write('<input type="text" id="filterbox" onkeyup="filterFunction()" placeholder="Search in the libary..." autofocus>');
