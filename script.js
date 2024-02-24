@@ -50,7 +50,6 @@ const library = [
     { title: "Blue Exorcist", src: "https://cdn.myanimelist.net/images/anime/10/75195l.jpg" },
     { title: "Fairy Tail", src: "https://cdn.myanimelist.net/images/anime/7/59441l.jpg" },
     { title: "Little Witch Academia", src: "https://cdn.myanimelist.net/images/anime/13/83934l.jpg" },
-    { title: "Your Lie in April", src: "https://cdn.myanimelist.net/images/anime/3/72831l.jpg" },
     { title: "Black Clover", src: "https://cdn.myanimelist.net/images/anime/1232/93334l.jpg" },
     { title: "K-On!", src: "https://cdn.myanimelist.net/images/anime/10/76120l.jpg" },
     { title: "Haikyuu!!", src: "https://cdn.myanimelist.net/images/anime/7/76014l.jpg" },
@@ -66,13 +65,11 @@ const library = [
     { title: "Yuru Camp", src: "https://cdn.myanimelist.net/images/anime/4/89877l.jpg" },
     { title: "Majo no Tabitabi", src: "https://cdn.myanimelist.net/images/anime/1802/108501l.jpg" },
     { title: "Naruto", src: "https://cdn.myanimelist.net/images/anime/13/17405l.jpg" },
-    { title: "Adachi to Shimamura", src: "https://cdn.myanimelist.net/images/anime/1586/124943l.jpg" },
     { title: "Adachi to Shimamura", src: "https://cdn.myanimelist.net/images/manga/2/232193l.jpg" },
     { title: "Komi-san wa, Komyushou Desu", src: "https://cdn.myanimelist.net/images/anime/1899/117237l.jpg" },
     { title: "Menhera Shoujo Kurumi-chan", src: "https://static.bunnycdn.ru/i/cache/images/9/9d/9d3a6c50621ea7c8736ed04ee26df849.jpg" },
     { title: "Bloom Into You", src: "https://cdn.myanimelist.net/images/manga/1/232311l.jpg" },
-    { title: "Bloom Into You Antology", src: "https://cdn.myanimelist.net/images/manga/2/222782l.jpg" },
-    { title: "Bloom Into You", src: "https://cdn.myanimelist.net/images/anime/1783/96153l.jpg" },
+    { title: "Bloom Into You (light novel)", src: "https://cdn.myanimelist.net/images/manga/3/222780l.jpg" },
     { title: "Science Fell in Love, So I Tried to Prove It", src: "https://cdn.myanimelist.net/images/anime/1432/103533l.jpg" },
     { title: "Spy x Family", src: "https://cdn.myanimelist.net/images/anime/1823/119156l.jpg" },
     { title: "Jibaku Shōnen Hanako-kun", src: "https://cdn.myanimelist.net/images/anime/1700/104788l.jpg" },
@@ -82,7 +79,6 @@ const library = [
     { title: "Hōseki no Kuni", src: "https://cdn.myanimelist.net/images/anime/3/88293l.jpg" },
     { title: "RWBY", src: "https://pics.filmaffinity.com/rwby-751014904-large.jpg" },
     { title: "RWBY: Ice Queendom", src: "https://cdn.myanimelist.net/images/anime/1356/121832l.jpg" },
-    { title: "RWBY Anthology", src: "https://cdn.myanimelist.net/images/manga/2/197717l.jpg" },
     { title: "Lycoris Recoil", src: "https://cdn.myanimelist.net/images/anime/1392/124401l.jpg" },
     { title: "Oregairu", src: "https://cdn.myanimelist.net/images/anime/1786/120117l.jpg" },
     { title: "Bocchi the Rock!", src: "https://cdn.myanimelist.net/images/anime/1448/127956l.jpg" },
@@ -90,7 +86,6 @@ const library = [
     { title: "Mobile Suit Gundam: The Witch from Mercury", src: "https://cdn.myanimelist.net/images/anime/1440/127624l.jpg" },
     { title: "Domestic na Kanojo", src: "https://cdn.myanimelist.net/images/anime/1117/111599l.jpg" },
     { title: "Kimi no Na wa.", src: "https://cdn.myanimelist.net/images/anime/9/77484l.jpg" },
-    { title: "Kimi no Na wa.", src: "https://cdn.myanimelist.net/images/manga/1/182270l.jpg" },
     { title: "Weathering with You", src: "https://cdn.myanimelist.net/images/anime/1880/101146l.jpg" },
     { title: "I Want to Eat Your Pancreas", src: "https://cdn.myanimelist.net/images/anime/11/90070l.jpg" },
     { title: "Bubble", src: "https://cdn.myanimelist.net/images/anime/1011/121152l.jpg" },
@@ -121,9 +116,8 @@ const library = [
     { title: "Given", src: "https://cdn.myanimelist.net/images/manga/1/172497l.jpg" },
     { title: "Sasaki to Miyano", src: "https://cdn.myanimelist.net/images/manga/3/187122l.jpg" },
     { title: "I'm in Love with the Villainess", src: "https://cdn.myanimelist.net/images/manga/2/238641l.jpg" },
-    { title: "I'm in Love with the Villainess", src: "https://cdn.myanimelist.net/images/anime/1531/137711l.jpg" },
+    { title: "I'm in Love with the Villainess (light novel)", src: "https://cdn.myanimelist.net/images/manga/1/253475l.jpg" },
     { title: "Whisper Me a Love Song", src: "https://cdn.myanimelist.net/images/manga/1/219489l.jpg" },
-    { title: "Whisper Me a Love Song", src: "https://cdn.myanimelist.net/images/anime/1518/137892l.jpg" },
     { title: "I Married My Best Friend To Shut My Parents Up", src: "https://cdn.myanimelist.net/images/manga/1/212825l.jpg" },
     { title: "Lonely Girl ni Sakaraenai", src: "https://cdn.myanimelist.net/images/manga/2/246835l.jpg" },
     { title: "Alcohol Yuri Anthology: Strong!", src: "https://cdn.myanimelist.net/images/manga/1/241920l.jpg" },
@@ -141,13 +135,7 @@ const library = [
     { title: "Citrus", src: "https://cdn.myanimelist.net/images/manga/3/185905l.jpg" },
     { title: "Citrus+", src: "https://cdn.myanimelist.net/images/manga/2/244143l.jpg" },
     { title: "Girl Friends", src: "https://cdn.myanimelist.net/images/manga/3/262292l.jpg" },
-    { title: "RWBY: Ice Queendom", src: "https://cdn.myanimelist.net/images/manga/2/291824l.jpg" },
-    { title: "RWBY Manga", src: "https://cdn.myanimelist.net/images/manga/2/196046l.jpg" },
-    { title: "RWBY: The Official Manga", src: "https://static.bunnycdn.ru/i/cache/images/d/d7/d703d7f67b56f91249c2605f0a9fb88b.jpg" },
     { title: "Rondallas", src: "https://proassetspdlcom.cdnstatics2.com/usuaris/libros/thumbs/83d2e954-c4a9-43ca-9dfa-a166b0f6d1fe/d_1200_1200/portada_planeta-manga-rondallas__202206091029.webp" },
-    { title: "Good Game", src: "https://proassetspdlcom.cdnstatics2.com/usuaris/libros/thumbs/2168cef1-4a53-4cff-a06b-ccc63b870d39/d_1200_1200/portada_planeta-manga-good-game_blanca-mira_202106141000.webp" },
-    { title: "Kimi no Suizō wo Tabetai", src: "https://cdn.myanimelist.net/images/manga/2/191611l.jpg" },
-    { title: "Tenki no Ko", src: "https://cdn.myanimelist.net/images/manga/2/226128l.jpg" },
     { title: "The Two of Them Are Pretty Much Like This", src: "https://cdn.myanimelist.net/images/manga/1/236200l.jpg" },
     { title: "The Sheep Princess In Wolf's Clothing", src: "https://cdn.myanimelist.net/images/manga/1/245341l.jpg" },
     { title: "Failed Princesses", src: "https://cdn.myanimelist.net/images/manga/3/217480l.jpg" },
@@ -190,18 +178,17 @@ const library = [
     { title: "Inugami-san to Nekoyama-san", src: "https://cdn.myanimelist.net/images/manga/3/90515l.jpg" },
     { title: "Yuri Hime Wildrose", src: "https://cdn.myanimelist.net/images/manga/1/4195l.jpg" },
     { title: "Harmony", src: "https://cdn.myanimelist.net/images/manga/3/174755l.jpg" },
-    { title: "Bloom Into You (light novel)", src: "https://cdn.myanimelist.net/images/manga/3/222780l.jpg" },
-    { title: "I'm in Love with the Villainess (light novel)", src: "https://cdn.myanimelist.net/images/manga/1/253475l.jpg" },
     { title: "After School Étude", src: "https://arechimanga.com/wp-content/uploads/2023/11/After-School-Etude-vol.1-scaled.jpg" },
     { title: "I Love You So Much, I Hate You", src: "https://cdn.myanimelist.net/images/manga/3/224057l.jpg" },
     { title: "SCHOOL ZONE GIRLS", src: "https://cdn.myanimelist.net/images/manga/3/228686l.jpg" },
     { title: "How Do I Turn My Best Friend Into My Girlfriend?", src: "https://cdn.myanimelist.net/images/manga/1/280202l.jpg" },
-    { title: "Kageki Shoujo!!", src: "https://cdn.myanimelist.net/images/manga/2/167045l.jpg" },
     { title: "Kageki Shoujo!! Season Zero", src: "https://cdn.myanimelist.net/images/manga/2/149763l.jpg" },
+    { title: "Kageki Shoujo!!", src: "https://cdn.myanimelist.net/images/manga/2/167045l.jpg" },
 ];
 
 document.write('<input type="text" id="filterbox" onkeyup="filterFunction()" placeholder="Search in the libary..." autofocus>');
 document.write('<div>');
+
 links.forEach(element => {
     document.write(`
         <div class="link-container" onclick="window.location='${element.url}'">
@@ -211,6 +198,7 @@ links.forEach(element => {
 });
 document.write('</div>');
 document.write('<div>');
+
 library.forEach(element => {
     document.write(`
         <div class="library-container">
