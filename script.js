@@ -207,4 +207,5 @@ library.forEach(element => {
     `);
 });
 document.write('</div>');
+
 document.write(`<footer id="copyright">None of the images used are mine. All copyrights belong to their respective owners.</footer>`);
