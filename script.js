@@ -187,8 +187,8 @@ const library = [
 ];
 
 document.write('<input type="text" id="filterbox" onkeyup="filterFunction()" placeholder="Search in the libary..." autofocus>');
-document.write('<div>');
 
+document.write('<div>');
 links.forEach(element => {
     document.write(`
         <div class="link-container" onclick="window.location='${element.url}'">
@@ -197,8 +197,8 @@ links.forEach(element => {
     `);
 });
 document.write('</div>');
-document.write('<div>');
 
+document.write('<div>');
 library.forEach(element => {
     document.write(`
         <div class="library-container">
