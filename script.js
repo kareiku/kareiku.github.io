@@ -2,17 +2,7 @@ function filterFunction() {
     var filterValue = document.getElementById('filterbox').value.toLowerCase();
     var items = document.querySelectorAll('.link-container, .library-container');
     items.forEach(function (item) {
-        if (item.classList.contains('link-container')) {
-            var linkButton = item.querySelector('.link-button');
-            if (linkButton) {
-                var linkButtonText = linkButton.innerText.toLowerCase();
-                if (linkButtonText.includes(filterValue))
-                    item.style.display = '';
-                else
-                    item.style.display = 'none';
-            }
-        }
-        else if (item.classList.contains('library-container')) {
+        if (item.classList.contains('library-container')) {
             var img = item.querySelector('img');
             if (img) {
                 var title = img.getAttribute('title');
@@ -27,18 +17,6 @@ function filterFunction() {
         }
     });
 }
-
-const links = [
-    { value: "Piano", url: "./piano/index.html" },
-    { value: "AniWave", url: "https://aniwave.to/" },
-    { value: "MangaFire", url: "https://mangafire.to/" },
-    { value: "Steven Universe Archive", url: "http://nekit.sytes.net/files/gems/" },
-    { value: "Astronomy Picture of the Day", url: "https://apod.nasa.gov/apod/astropix.html" },
-    { value: "Wii Softmodding Guide", url: "https://wii.guide/" },
-    { value: "Vimm's Vault", url: "https://vimm.net/vault/" },
-    { value: "Nintendo Roms", url: "https://r-roms.gitlab.io/megathread/sections/nintendo/" },
-    { value: "My Github Stars", url: "https://github.com/kareiku?tab=stars" },
-];
 
 const library = [
     { title: "Assassination Classroom", src: "https://cdn.myanimelist.net/images/anime/5/75639l.jpg" },
@@ -186,18 +164,6 @@ const library = [
     { title: "Kageki Shoujo!!", src: "https://cdn.myanimelist.net/images/manga/2/167045l.jpg" },
 ];
 
-document.write('<input type="text" id="filterbox" onkeyup="filterFunction()" placeholder="Search in the libary..." autofocus>');
-
-document.write('<div>');
-links.forEach(element => {
-    document.write(`
-        <div class="link-container" onclick="window.location='${element.url}'">
-            <div class="link-button">${element.value}</div>
-        </div>
-    `);
-});
-document.write('</div>');
-
 document.write('<div>');
 library.forEach(element => {
     document.write(`
@@ -207,5 +173,3 @@ library.forEach(element => {
     `);
 });
 document.write('</div>');
-
-document.write(`<footer id="copyright">None of the images used are mine. All copyrights belong to their respective owners.</footer>`);

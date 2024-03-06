@@ -38,7 +38,7 @@ h1 {
     margin-bottom: 12px;
 }
 
-.link-container {
+#link-container {
     display: inline-block;
     margin: 5px;
     cursor: pointer;
