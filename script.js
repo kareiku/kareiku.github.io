@@ -1,6 +1,6 @@
 function filterFunction() {
     var filterValue = document.getElementById('filterbox').value.toLowerCase();
-    var items = document.querySelectorAll('.link-container, .library-container');
+    var items = document.querySelectorAll('.library-container');
     items.forEach(function (item) {
         if (item.classList.contains('library-container')) {
             var img = item.querySelector('img');

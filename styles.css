@@ -39,7 +39,6 @@ h1 {
 }
 
 #link-container {
-    display: inline-block;
     margin: 5px;
     cursor: pointer;
 }
@@ -59,7 +58,7 @@ h1 {
 }
 
 .link-button:hover {
-    background-color: #e4586b;
+    background-color: #e66e7e;
     color: #f0f0f0;
 }
 
