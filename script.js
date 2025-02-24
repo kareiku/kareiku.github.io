@@ -33,7 +33,7 @@ function writeRepos(repositories) {
 
         const link = document.createElement("a");
         link.href = repository.homepage || repository.html_url;
-        link.textContent = "View repository";
+        link.textContent = "View";
         card.appendChild(link);
 
         container.appendChild(card);
