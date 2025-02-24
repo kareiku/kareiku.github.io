@@ -1,0 +1,180 @@
+@import "fonts.css";
+
+* {
+    user-select: none;
+}
+
+html {
+    height: 100%;
+    min-height: 100vh;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, #FBC2EB, #A6C1EE);
+    z-index: -1;
+}
+
+.title {
+    font-size: 50px;
+    font-family: expletus-sans;
+    /* text-shadow: 5px 5px #FF8C00, 10px 10px #FFED00, 15px 15px #008026, 20px 20px #24408E, 25px 25px #732982; */
+    background-image: linear-gradient(to right, #E40303 0% 10%, #FF8C00, #FFED00, #008026, #24408E, #732982 90% 100%);
+    background-clip: text;
+    color: transparent;
+    display: inline;
+    margin: 5px;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-family: playwrite-italia-moderna;
+    color: purple;
+    margin: 5px;
+}
+
+.navbar {
+    background-color: #ffffffdd;
+    opacity: 0.7;
+    margin-bottom: 20px;
+    padding: 0px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+
+.navbar a {
+    font-size: 20px;
+    font-family: kalam;
+    color: #333366;
+    text-decoration: none;
+    margin: 5px 8px;
+    padding: 12px 18px;
+    transition: background-color 1s, color 1s;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.navbar a:hover {
+    background-color: rgba(164, 113, 209, 0.25);
+}
+
+.navbar img {
+    max-width: 36px;
+    height: auto;
+    display: block;
+}
+
+.separator {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .navbar a {
+        font-size: 18px;
+        padding: 10px 16px;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .navbar img {
+        margin: 0;
+    }
+
+    .separator {
+        display: none;
+    }
+}
+
+.sqlite-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.sqlite-navbar input[type="button"] {
+    flex: 0 0 auto;
+    padding: 6px 12px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #c0acd6;
+    color: #222;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+
+.sqlite-navbar input[type="button"]:hover {
+    background-color: #b58fd3;
+}
+
+.sqlite-navbar input[type="button"]:active {
+    transform: scale(1.05);
+}
+
+.sqlite-navbar input[type="search"] {
+    flex: 1 1 auto;
+    min-width: 100px;
+    padding: 7px 12px;
+    font-size: 16px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    background-color: #f5f5ff;
+}
+
+.sqlite-navbar input[type="search"]:focus {
+    outline: none;
+}
+
+.table {
+    background: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 65%;
+}
+
+.table th {
+    background: white;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.table td {
+    background: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.table tr:hover td {
+    background: #ddd;
+    transition: background ease-in-out 0.15s;
+}
