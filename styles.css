@@ -1,6 +1,7 @@
 * {
     font-family: system-ui;
     font-size: 16px;
+    user-select: none;
 }
 
 html {
@@ -31,6 +32,9 @@ html {
     color: #2E2E2E;
     box-sizing: border-box;
     transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card h3 {
@@ -39,12 +43,19 @@ html {
 }
 
 .card p {
-    height: 80px;
+    white-space: nowrap;
     overflow: hidden;
-    line-height: 1.5;
+    text-overflow: ellipsis;
+    width: 100%;
+    text-align: center;
+}
+
+.card a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
 }
 
 .card:hover {
-    background: lightcoral;
     transform: scale(1.05);
 }
