@@ -8,7 +8,9 @@ function buildNavbar(related) {
         const btn = document.createElement("input");
         btn.type = "button";
         btn.value = firstCapitalized(element);
+        btn.className = "button";
         btn.addEventListener("click", () => window.open("../" + element + "/index.html", "_self"));
+        navbar.appendChild(btn);
     });
 }
 
