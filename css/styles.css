@@ -1,21 +1,52 @@
+@import "fonts.css";
+
 * {
-    font-family: system-ui;
-    font-size: 16px;
+    user-select: none;
 }
 
 html {
-    background: rosybrown;
+    background: #a882b39d;
     height: 100%;
 }
 
-.title {
-    color: #E40303;
-    text-shadow: 5px 5px #FF8C00, 10px 10px #FFED00, 15px 15px #008026, 20px 20px #24408E, 25px 25px #732982;
-    text-align: center;
-    font-size: 70px;
+.title-box {
+    display: flex;
+    justify-content: center;
 }
 
-#selector {
+.title {
+    font-size: 70px;
+    font-family: expletus-sans;
+    /* text-shadow: 5px 5px #FF8C00, 10px 10px #FFED00, 15px 15px #008026, 20px 20px #24408E, 25px 25px #732982; */
+    background-image: linear-gradient(to right, #E40303 0% 10%, #FF8C00, #FFED00, #008026, #24408E, #732982 90% 100%);
+    background-clip: text;
+    color: transparent;
+    display: inline;
+}
+
+.navigation-bar {
+    display: flex;
+    min-height: 35px;
+    gap: 20px;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.button {
+    font-size: 1.5em;
+    font-family: kalam;
+    background: indianred;
+    color: bisque;
+    border-radius: 8px;
+    border: none;
+}
+
+.button:hover {
+    background: lightcoral;
+    transform: scale(1.05);
+}
+
+.selector {
     background: white;
     border: none;
     border-radius: 5px;
@@ -30,7 +61,7 @@ html {
     width: 60%;
 }
 
-#search-bar {
+.search-bar {
     border: none;
     border-radius: 5px;
     display: block;
@@ -41,11 +72,11 @@ html {
     width: 60%;
 }
 
-#search-bar:focus {
+.search-bar:focus {
     outline: none;
 }
 
-#results {
+.table {
     background: white;
     border: 1px solid black;
     border-collapse: collapse;
@@ -55,13 +86,13 @@ html {
     width: 65%;
 }
 
-#results th {
+.table th {
     background: white;
     border: 1px solid black;
     padding: 10px;
 }
 
-#results td {
+.table td {
     background: white;
     border: 1px solid black;
     text-align: center;
@@ -69,6 +100,6 @@ html {
     vertical-align: middle;
 }
 
-#results tr:hover td {
+.table tr:hover td {
     background: lightpink;
 }

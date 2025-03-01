@@ -2,7 +2,7 @@ class Note {
     constructor(name, keys) {
         this.name = name;
         this.keys = keys;
-        this.noteAudio = new Audio(`notes/${this.name}.mp3`);
+        this.noteAudio = new Audio(`../assets/piano-notes/${this.name}.mp3`);
         this.noteDomElement = document.querySelector(`.${this.name}`)
     }
 

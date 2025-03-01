@@ -1,23 +1,12 @@
-* {
-    font-family: system-ui;
-    user-select: none;
-}
-
-html {
-    height: 100%;
-    background: rosybrown;
-}
-
 body {
-    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .piano {
     display: flex;
     position: absolute;
+    top: 25%;
 }
 
 .white-key {

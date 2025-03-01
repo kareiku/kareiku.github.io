@@ -6,16 +6,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library</title>
-    <link rel="icon" href="icon.ico">
-    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="icon" href="../assets/icons/favicon.ico">
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
 </head>
 
 <body>
 
-<h1 class="title">Library</h1>
+<div class="title-box">
+    <h1 class="title">Library</h1>
+</div>
 
 <label for="selector"></label>
-<select id="selector">
+<select id="selector" class="selector">
     <option value="name">Name</option>
     <option value="author">Author</option>
     <option value="genre">Genre</option>
@@ -23,11 +25,11 @@
 </select>
 
 <label for="search-bar"></label>
-<input id="search-bar" type="search" placeholder="Filter by name...">
+<input id="search-bar" class="search-bar" type="search" placeholder="Filter by name...">
 
-<table id="results"></table>
+<table id="results" class="table"></table>
 
-<script src="script.js"></script>
+<script src="../js/library.js"></script>
 
 </body>
 

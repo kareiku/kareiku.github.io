@@ -9,7 +9,7 @@ function buildNavbar(related) {
         btn.type = "button";
         btn.value = firstCapitalized(element);
         btn.className = "button";
-        btn.addEventListener("click", () => window.open("../" + element + "/index.html", "_self"));
+        btn.addEventListener("click", () => window.open(`pages/${element}.html`, "_self"));
         navbar.appendChild(btn);
     });
 }
