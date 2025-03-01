@@ -1,7 +1,6 @@
 * {
     font-family: system-ui;
     font-size: 16px;
-    user-select: none;
 }
 
 html {
@@ -16,46 +15,22 @@ html {
     font-size: 70px;
 }
 
-.card-container {
+.navbar {
     display: flex;
-    flex-wrap: wrap;
+    min-height: 35px;
     gap: 20px;
     justify-content: center;
-}
-
-.card {
-    background: indianred;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    width: 200px;
-    color: #2E2E2E;
-    box-sizing: border-box;
     transition: all 0.3s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
-.card h3 {
-    font-size: 1.2em;
-    text-align: center;
+.button {
+    background: indianred;
+    color: bisque;
+    border-radius: 8px;
+    border: none;
 }
 
-.card p {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 100%;
-    text-align: center;
-}
-
-.card a {
-    color: white;
-    text-decoration: none;
-    text-align: center;
-}
-
-.card:hover {
+.button:hover {
+    background: lightcoral;
     transform: scale(1.05);
 }
