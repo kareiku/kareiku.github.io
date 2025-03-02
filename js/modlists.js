@@ -17,7 +17,9 @@ window.addEventListener("load", () => {
 field.addEventListener("mousedown", () => {
     input.value = "";
     input.focus();
+    input.placeholder = `Filter by ${field.value}...`;
 });
+
 input.addEventListener("keyup", () => loadTable());
 
 function loadTable() {
@@ -35,7 +37,7 @@ function loadTable() {
 
     filteredData.forEach(datum => {
         const row = table.insertRow();
-        keys.forEach(key => row.insertCell().innerHTML = isUrl(datum[key]) ? `<a href="${datum[key]}">${datum[key]}</a>` : datum[key]);
+        keys.forEach(key => row.insertCell().innerHTML = isUrl(datum[key]) ? `<a class="better-url" href="${datum[key]}">${datum[key]}</a>` : datum[key]);
     });
 }
 
