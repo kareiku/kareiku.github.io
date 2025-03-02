@@ -5,8 +5,13 @@
 }
 
 html {
-    background: #a882b39d;
     height: 100%;
+    min-height: 100vh;
+}
+
+body {
+    background: linear-gradient(to bottom, #FBC2EB, #A6C1EE);
+    background-attachment: fixed;
 }
 
 .title-box {
@@ -102,4 +107,16 @@ html {
 
 .table tr:hover td {
     background: lightpink;
+}
+
+.better-url {
+    text-decoration: none;
+    color: #FF69B4;
+    font-weight: bold;
+    font-family: kalam;
+}
+
+.better-url:hover {
+    color: #FF1493;
+    text-decoration: underline solid #FF1493;
 }
