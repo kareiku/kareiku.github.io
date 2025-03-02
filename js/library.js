@@ -17,7 +17,9 @@ window.addEventListener("load", () => {
 field.addEventListener("mousedown", () => {
     input.value = "";
     input.focus();
+    input.placeholder = `Filter by ${selector.value}...`;
 });
+
 input.addEventListener("keyup", () => loadTable());
 
 function loadTable() {
