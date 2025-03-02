@@ -1,385 +1,385 @@
 [
     {
         "type": "Resource Pack",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "The Official Connected Textures Pack",
         "url": "https://www.curseforge.com/minecraft/texture-packs/ctp"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Armourer's Workshop",
         "url": "https://www.curseforge.com/minecraft/mc-mods/armourers-workshop"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Biomes O' Plenty",
         "url": "https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Camera Mod",
         "url": "https://www.curseforge.com/minecraft/mc-mods/camera-mod"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Chisel",
         "url": "https://www.curseforge.com/minecraft/mc-mods/chisel"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "ConnectedTexturesMod",
         "url": "https://www.curseforge.com/minecraft/mc-mods/ctm"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "copygirl's Wearable Backpacks",
         "url": "https://www.curseforge.com/minecraft/mc-mods/wearable-backpacks"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "e4mc",
         "url": "https://www.curseforge.com/minecraft/mc-mods/e4mc"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Electroblob's Wizardry",
         "url": "https://www.curseforge.com/minecraft/mc-mods/electroblobs-wizardry"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "ElevatorMod",
         "url": "https://www.curseforge.com/minecraft/mc-mods/openblocks-elevator"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Enchanting Plus",
         "url": "https://www.curseforge.com/minecraft/mc-mods/enchanting-plus"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Enchantment Descriptions",
         "url": "https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Hex Lands",
         "url": "https://www.curseforge.com/minecraft/mc-mods/hex-lands"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Hooked",
         "url": "https://www.curseforge.com/minecraft/mc-mods/hooked"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Hywla",
         "url": "https://www.curseforge.com/minecraft/mc-mods/hwyla"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Improvable Skills",
         "url": "https://www.curseforge.com/minecraft/mc-mods/improvable-skills"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Inventory Sorter",
         "url": "https://www.curseforge.com/minecraft/mc-mods/inventory-sorter"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Iron Jetpacks",
         "url": "https://www.curseforge.com/minecraft/mc-mods/iron-jetpacks"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Just Enough Items (JEI)",
         "url": "https://www.curseforge.com/minecraft/mc-mods/jei"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Lucky Block",
         "url": "https://www.curseforge.com/minecraft/mc-mods/lucky-block"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "MrCrayfish's Gun Mod",
         "url": "https://mrcrayfish.com/mods/cgm"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Pixelmon",
         "url": "https://reforged.gg"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Polymorph",
         "url": "https://modrinth.com/mod/polymorph"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Quark",
         "url": "https://www.curseforge.com/minecraft/mc-mods/quark"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Quick Leaf Decay",
         "url": "https://www.curseforge.com/minecraft/mc-mods/quick-leaf-decay"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Tinkers Construct",
         "url": "https://www.curseforge.com/minecraft/mc-mods/tinkers-construct"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Tinkers' Tool Leveling",
         "url": "https://www.curseforge.com/minecraft/mc-mods/tinkers-tool-leveling"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Tips",
         "url": "https://www.curseforge.com/minecraft/mc-mods/tips"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Towers Of The Wild",
         "url": "https://www.curseforge.com/minecraft/mc-mods/towers-of-the-wild"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "TrashSlot",
         "url": "https://www.curseforge.com/minecraft/mc-mods/trashslot"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Underground Biomes",
         "url": "https://www.curseforge.com/minecraft/mc-mods/underground-biomes"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Useful Backpacks",
         "url": "https://www.curseforge.com/minecraft/mc-mods/useful-backpacks"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Xaero's World Map",
         "url": "https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Additional Structures",
         "url": "https://www.curseforge.com/minecraft/mc-mods/additional-structures"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "AmbientSounds",
         "url": "https://www.curseforge.com/minecraft/mc-mods/ambientsounds"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Borderless Mining",
         "url": "https://www.curseforge.com/minecraft/mc-mods/borderless-mining"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Botania",
         "url": "https://www.curseforge.com/minecraft/mc-mods/botania"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Entity Culling",
         "url": "https://www.curseforge.com/minecraft/mc-mods/entityculling"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "FancyMenu",
         "url": "https://www.curseforge.com/minecraft/mc-mods/fancymenu"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Industrial Foregoing",
         "url": "https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Joy of Painting",
         "url": "https://www.curseforge.com/minecraft/mc-mods/joy-of-painting"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Pick Up Notifier",
         "url": "https://www.curseforge.com/minecraft/mc-mods/pick-up-notifier"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Quark Oddities",
         "url": "https://www.curseforge.com/minecraft/mc-mods/quark-oddities"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Tinkers' Complement",
         "url": "https://www.curseforge.com/minecraft/mc-mods/tinkers-complement"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Underground Jungle",
         "url": "https://www.curseforge.com/minecraft/mc-mods/underground-jungle"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Simple Voice Chat",
         "url": "https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Simple Generators",
         "url": "https://www.curseforge.com/minecraft/mc-mods/simple-generators"
     },
     {
         "type": "Mod",
-        "for": "Terraria",
+        "game": "Terraria",
         "name": "No Pylon Restrictions",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2812377597"
     },
     {
         "type": "Mod",
-        "for": "Terraria",
+        "game": "Terraria",
         "name": "Endless Potions",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2831280683"
     },
     {
         "type": "Mod",
-        "for": "Terraria",
+        "game": "Terraria",
         "name": "Friendly NPCs Don't Die",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2729987636"
     },
     {
         "type": "Mod",
-        "for": "Terraria",
+        "game": "Terraria",
         "name": "Change Sleep Time",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3014137690"
     },
     {
         "type": "Mod",
-        "for": "Terraria",
+        "game": "Terraria",
         "name": "Recipe Browser",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2619954303"
     },
     {
         "type": "Mod",
-        "for": "Terraria",
+        "game": "Terraria",
         "name": "Concise Mods List",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3001692619"
     },
     {
         "type": "Mod",
-        "for": "Terraria",
+        "game": "Terraria",
         "name": "Teleport All NPC Home",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2789237440"
     },
     {
         "type": "Mod",
-        "for": "Terraria",
+        "game": "Terraria",
         "name": "Vanilla+ QoL",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3086919933"
     },
     {
         "type": "Mod",
-        "for": "Terraria",
+        "game": "Terraria",
         "name": "absoluteAquarian Utilities (SerousCommonLib",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2908170107"
     },
     {
         "type": "Mod",
-        "for": "Terraria",
+        "game": "Terraria",
         "name": "Magic Storage Starter Bag",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3281576339"
     },
     {
         "type": "Mod",
-        "for": "Terraria",
+        "game": "Terraria",
         "name": "Magic Storage",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2563309347"
     },
     {
         "type": "Mod",
-        "for": "Terraria",
+        "game": "Terraria",
         "name": "Calamity Mod",
         "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072"
     },
     {
         "type": "Mod",
-        "for": "Breath of the Wild",
+        "game": "Breath of the Wild",
         "name": "BOTW Randomizer by Waikuteru",
         "url": "https://www.waikuteru-zelda-mods.com/downloads/botw/botw-randomizer-by-waikuteru"
     },
     {
         "type": "Mod",
-        "for": "Breath of the Wild",
+        "game": "Breath of the Wild",
         "name": "Relics of the Past",
         "url": "https://relicsofthepast.dev/download"
     },
     {
         "type": "Mod",
-        "for": "Breath of the Wild",
+        "game": "Breath of the Wild",
         "name": "Durability UI",
         "url": "https://gamebanana.com/mods/49876"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Trumpet Skeleton",
         "url": "https://www.curseforge.com/minecraft/mc-mods/doot"
     },
     {
         "type": "Mod",
-        "for": "Minecraft",
+        "game": "Minecraft",
         "name": "Tom's Simple Storage Mod",
         "url": "https://www.curseforge.com/minecraft/mc-mods/toms-storage"
     }
