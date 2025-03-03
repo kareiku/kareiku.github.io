@@ -120,3 +120,8 @@ body {
     color: #FF1493;
     text-decoration: underline solid #FF1493;
 }
+
+.icon {
+    height: 40px;
+    width: auto;
+}
