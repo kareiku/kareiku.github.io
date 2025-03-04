@@ -6,6 +6,7 @@ const input = document.getElementById("search-bar");
 let entries = [];
 
 window.addEventListener("load", async () => {
+    const url = await fetch("../js/urls.json").then(response => response.json()).then(urls => urls[window.location.href.substring(window.location.href.lastIndexOf("/") + 1).split(".").at()]);
     input.value = "";
     input.focus();
     entries = await Modules.fetchText(url);
