@@ -1,4 +1,4 @@
-import { Button, ImgButton } from './Button.js';
+import { Button, ImgButton } from "./Button.js";
 
 window.addEventListener("load", () => {
     const navbar = document.getElementById("navigation-bar");
