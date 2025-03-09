@@ -3,6 +3,12 @@ body {
     justify-content: center;
 }
 
+@media (max-width: 800px) {
+    .piano {
+        transform: scale(0.6);
+    }
+}
+
 .piano {
     display: flex;
     position: absolute;
