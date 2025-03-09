@@ -23,7 +23,7 @@ field.addEventListener("mousedown", () => {
 input.addEventListener("keyup", () => void loadTable(entries, table));
 
 function loadTable(entries, table) {
+    const header = Object.keys(entries?.at());
     entries = input !== "" ? entries.filter(entry => (entry[field.value] || "").toLowerCase().includes(input.value.toLowerCase())) : entries;
-    entries.sort((entry1, entry2) => (entry1.progress || "").localeCompare(entry2.progress || ""));
-    Modules.loadTable(entries, table);
+    Modules.loadTable(entries, header, table);
 }
