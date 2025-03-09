@@ -29,8 +29,7 @@ export async function fetchText(url) {
     return response.ok ? await response.text() : "";
 }
 
-export function loadTable(entries, table) {
-    const keys = Object.keys(entries?.at() || []);
+export function loadTable(entries, keys, table) {
     table.innerHTML = "";
 
     const header = document.createElement("tr");
