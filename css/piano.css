@@ -53,7 +53,7 @@ body {
     background: linear-gradient(#000, #101010);
 }
 
-text {
+.key-letter {
     position: relative;
     font-weight: bold;
     font-size: 20px;
@@ -61,11 +61,11 @@ text {
     mix-blend-mode: difference;
 }
 
-.white-key text {
+.white-key .key-letter {
     top: 208px;
 }
 
-.black-key text {
+.black-key .key-letter {
     top: 132px;
 }
 
