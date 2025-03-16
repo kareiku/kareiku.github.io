@@ -7,5 +7,4 @@ window.addEventListener("load", () => {
     navbar.appendChild(new Button("pages/modlists.html", "Modlists", "button").create());
     navbar.appendChild(new Button("pages/piano.html", "Piano", "button").create());
     navbar.appendChild(new ImgButton("https://github.com/kareiku", "assets/icons/github-mark.svg", "icon").create());
-    navbar.appendChild(new ImgButton("https://gists.github.com/kareiku", "assets/icons/github-mark-white.svg", "icon").create());
 });
