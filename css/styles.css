@@ -9,9 +9,15 @@ html {
     min-height: 100vh;
 }
 
-body {
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     background: linear-gradient(to bottom, #FBC2EB, #A6C1EE);
-    background-attachment: fixed;
+    z-index: -1;
 }
 
 .title-box {
