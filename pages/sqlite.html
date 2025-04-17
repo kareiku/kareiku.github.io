@@ -8,13 +8,11 @@
     <link rel="stylesheet" href="/css/styles.css" type="text/css">
 </head>
 <body>
-    <h1 class="title">SQLite Manager</h1>
-    <label for="query-bar"></label>
-    <input id="query-bar" class="search-bar" type="search" placeholder="Input a query...">
-    <label for="query-btn"></label>
-    <input id="query-btn" class="button" type="button" value="Process query">
-    <table id="output-tbl"></table>
+    <h1 class="title">SQLite</h1>
+    <h2 class="subtitle">File manager for CRUD.</h2>
+    <div id="content"></div>
+    <script src="/lib/sql-wasm.js"></script>
     <script type="module" src="/js/sqlite.js"></script>
-    <script src="/js/webpage.js"></script>
+    <script type="module" src="/js/webpage.js"></script>
 </body>
 </html>
