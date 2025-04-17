@@ -26,15 +26,15 @@ export async function fetchJson(url) {
 
 export async function fetchText(url) {
     const response = await fetch(url);
-    return response.ok ? await response.text() : "";
+    return response.ok ? await response.text() : '';
 }
 
 export function loadTable(entries, keys, table) {
-    table.innerHTML = "";
+    table.innerHTML = '';
 
-    const header = document.createElement("tr");
+    const header = document.createElement('tr');
     keys.forEach(key => {
-        const th = document.createElement("th");
+        const th = document.createElement('th');
         th.textContent = key.at().toUpperCase() + key.slice(1);
         header.appendChild(th);
     });
@@ -44,10 +44,10 @@ export function loadTable(entries, keys, table) {
         const row = table.insertRow();
         keys.forEach(key => {
             if (isUrl(entry[key])) {
-                const a = document.createElement("a");
+                const a = document.createElement('a');
                 a.href = entry[key];
                 a.textContent = entry[key];
-                a.className = "better-url";
+                a.className = 'better-url';
 
                 row.insertCell().append(a);
             } else {
