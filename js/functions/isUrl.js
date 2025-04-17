@@ -1,3 +1,3 @@
 export default function isUrl(str) {
-    return str?.match(/^http.*/);
+    return typeof str === 'string' && str.startsWith('http');
 }
