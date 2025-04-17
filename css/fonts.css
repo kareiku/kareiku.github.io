@@ -4,28 +4,8 @@ src: local("expletus-sans"), url("/assets/fonts/ExpletusSans-Regular.ttf");
 }
 
 @font-face {
-font-family: "gamecube";
-src: local("gamecube"), url("/assets/fonts/GameCube.ttf");
-}
-
-@font-face {
-font-family: "honk";
-src: local("honk"), url("/assets/fonts/Honk-Regular.ttf");
-}
-
-@font-face {
 font-family: "kalam";
 src: local("kalam"), url("/assets/fonts/Kalam-Regular.ttf");
-}
-
-@font-face {
-font-family: "monoton";
-src: local("monoton"), url("/assets/fonts/Monoton-Regular.ttf");
-}
-
-@font-face {
-font-family: "nabla";
-src: local("nabla"), url("/assets/fonts/Nabla-Regular.ttf");
 }
 
 @font-face {
@@ -36,11 +16,6 @@ src: local("permanent-marker"), url("/assets/fonts/PermanentMarker-Regular.ttf")
 @font-face {
 font-family: "playwrite-italia-moderna";
 src: local("playwrite-italia-moderna"), url("/assets/fonts/PlaywriteITModerna-Regular.ttf");
-}
-
-@font-face {
-font-family: "sigmar";
-src: local("sigmar"), url("/assets/fonts/Sigmar-Regular.ttf");
 }
 
 @font-face {
