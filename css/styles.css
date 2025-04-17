@@ -102,47 +102,46 @@ body::before {
     }
 }
 
-.button {
-    font-size: 1.5em;
-    font-family: kalam;
-    background: indianred;
-    color: snow;
-    border-radius: 8px;
-    border: none;
-}
-
-.button:hover {
-    background: lightcoral;
-    transform: scale(1.05);
-}
-
-.selector {
-    background: white;
-    border: none;
-    border-radius: 5px;
+.sqlite-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.25);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    display: block;
-    font-size: 16px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 12px;
-    padding: 12px 20px;
-    width: 60%;
+    border: none;
+    border-radius: 8px;
+    flex-wrap: wrap;
 }
 
-.search-bar {
+.sqlite-navbar input[type="button"] {
+    flex: 0 0 auto;
+    padding: 6px 12px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #c0acd6;
+    color: #222;
     border: none;
     border-radius: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 12px;
-    padding: 12px 20px 12px 20px;
-    width: 60%;
+    transition: background 0.2s;
 }
 
-.search-bar:focus {
+.sqlite-navbar input[type="button"]:hover {
+    background-color: #b58fd3;
+}
+
+.sqlite-navbar input[type="search"] {
+    flex: 1 1 auto;
+    min-width: 100px;
+    padding: 7px 12px;
+    font-size: 16px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    background-color: #f5f5ff;
+}
+
+.sqlite-navbar input[type="search"]:focus {
     outline: none;
 }
 
