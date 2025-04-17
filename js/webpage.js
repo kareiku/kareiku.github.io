@@ -4,7 +4,6 @@ window.addEventListener('load', () => {
         el('a', { href: '/pages/library.html', textContent: 'Library' }),
         el('a', { href: '/pages/modlists.html', textContent: 'Modlists' }),
         el('a', { href: '/pages/sqlite.html', textContent: 'SQLite' }),
-        el('a', { href: '/pages/piano.html', textContent: 'Piano' }),
         el('div', { className: 'separator' }),
         el('a', { href: 'https://github.com/kareiku', target: '_blank' }, el('img', { src: '/assets/icons/github-mark.svg', alt: 'GitHub' }))
     ));
