@@ -1,3 +1,5 @@
+import el from '/js/functions/el.js';
+
 window.addEventListener('load', () => {
     document.body.prepend(el('div', { className: 'navbar' }, 
         el('a', { href: '/index.html' }, el('b', { textContent: 'Home' })),
@@ -8,10 +10,3 @@ window.addEventListener('load', () => {
         el('a', { href: 'https://github.com/kareiku', target: '_blank' }, el('img', { src: '/assets/icons/github.svg', alt: 'GitHub' }))
     ));
 });
-
-function el(tag, attrs = {}, ...children) {
-    const element = document.createElement(tag);
-    Object.entries(attrs).forEach(([key, value]) => element[key] = value);
-    children?.forEach(c => element.appendChild(c));
-    return element;
-}
