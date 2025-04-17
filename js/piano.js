@@ -45,7 +45,7 @@ class Key {
     async #play(element) {
         const audioContext = new (window.AudioContext || window.webkitAudioContext)();
 
-        const response = await fetch(`../assets/piano-notes/${this.#note}.mp3`);
+        const response = await fetch(`/assets/piano-notes/${this.#note}.mp3`);
         const arrayBuffer = await response.arrayBuffer();
         const audioBuffer = await audioContext.decodeAudioData(arrayBuffer);
 
