@@ -1,4 +1,4 @@
-# Kareiku's Personal Website
+# kareiku.github.io
 
 ## Dependencies
 
