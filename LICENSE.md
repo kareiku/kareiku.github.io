@@ -2,11 +2,14 @@
 
 ## Project License
 
+```
 All rights reserved.
 
 Copyright (c) 2025 kareiku
 
-No part of this repository may be copied, distributed, or used in any way without explicit permission from the copyright holder.
+No part of this repository may be copied, distributed, or used in any way
+without explicit permission from the copyright holder.
+```
 
 ---
 
