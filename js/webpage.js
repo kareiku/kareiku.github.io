@@ -3,7 +3,6 @@ import el from '/js/functions/el.js';
 window.addEventListener('load', () => {
     document.body.prepend(el('div', { className: 'navbar' }, 
         el('a', { href: '/index.html' }, el('b', { textContent: 'Home' })),
-        el('a', { href: '/pages/lists.html', textContent: 'My Lists' }),
         el('a', { href: '/pages/piano.html', textContent: 'Piano' }),
         el('a', { href: '/pages/sqlite.html', textContent: 'SQLite Viewer' }),
         el('a', { href: 'https://kareiku.github.io/misc', textContent: 'Guides' }),
