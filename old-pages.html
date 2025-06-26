@@ -1,0 +1,41 @@
+<body>
+    <h1 class="title">Home Page</h1>
+    <h2 class="subtitle">of Kare's website.</h2>
+    <script type="module" src="/js/webpage.js"></script>
+
+    <h1 class="title">My Lists</h1>
+    <iframe id="lists-frame"></iframe>
+    <script type="module" src="/js/webpage.js"></script>
+    <script type="module" src="/js/lists.js"></script>
+
+    <div class="centering-box">
+        <form action="">
+            <fieldset>
+                <legend>Example Login</legend>
+                <div class="input-field">
+                    <label for="username">Username</label>
+                    <input type="text" id="username"
+                        placeholder="Enter your username..." required>
+                    <div class="underline"></div>
+                </div>
+                <div class="input-field">
+                    <label for="password">Password</label>
+                    <input type="password" id="password"
+                        placeholder="Enter your password..." required>
+                    <div class="underline"></div>
+                </div>
+                <input type="submit" value="Enter">
+            </fieldset>
+        </form>
+    </div>
+
+    <div class="piano" id="piano"></div>
+    <script src="/js/piano.js"></script>
+
+    <h1 class="title">SQLite Viewer</h1>
+    <h2 class="subtitle">Database file editor.</h2>
+    <div id="content"></div>
+    <script src="/lib/sql-wasm.js"></script>
+    <script type="module" src="/js/sqlite.js"></script>
+    <script type="module" src="/js/webpage.js"></script>
+</body>

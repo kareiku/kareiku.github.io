@@ -1,27 +1,12 @@
 import el from '/js/functions/el.js';
 import renderSQLTable from '/js/functions/renderSQLTable.js';
 
-const uploadbtn = el('input', { type: 'button', value: 'Upload database file' });
-const downloadbtn = el('input', { type: 'button', value: 'Download database file' });
-const querybar = el('input', { type: 'search', placeholder: 'Input a query...' });
-const querybtn = el('input', { type: 'button', value: 'Process query' });
-const createbtn = el('input', { type: 'button', value: 'Create empty database' });
-const tableDiv = el('div');
-
-window.addEventListener('load', () => {
-    const content = document.getElementById('content');
-    const navbar = el('div', { className: 'sqlite-navbar' },
-        uploadbtn,
-        downloadbtn,
-        querybar,
-        querybtn,
-        createbtn
-    );
-    content.appendChild(navbar);
-    content.appendChild(tableDiv);
-
-    setInterval(() => console.debug('[DEBUG] Currently loaded database: ', db), 10000);
-});
+const uploadbtn = document.getElementById('upload-btn');
+const downloadbtn = document.getElementById('download-btn');
+const querybar = document.getElementById('query-input');
+const querybtn = document.getElementById('query-btn');
+const createbtn = document.getElementById('create-btn');
+const tableDiv = document.getElementById('sqlite-table');
 
 const SQL = await window.initSqlJs({ locateFile: file => `/lib/${file}` });
 

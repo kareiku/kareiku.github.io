@@ -3,13 +3,53 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kareiku's Website</title>
+    <title>Kare's Website</title>
     <link rel="icon" href="/assets/icons/favicon.ico">
     <link rel="stylesheet" href="/css/styles.css" type="text/css">
 </head>
 <body>
-    <h1 class="title">Home Page</h1>
-    <h2 class="subtitle">of Kare's website.</h2>
-    <script type="module" src="/js/webpage.js"></script>
+    <div class="navbar">
+        <a href="#home"><b>Home</b></a>
+        <a href="#lists">My Lists</a>
+        <a href="#login">Example Login</a>
+        <a href="#piano">Piano</a>
+        <a href="#sqlite">SQLite Manager</a>
+        <a href="https://kareiku.github.io/misc" target="_blank">Guides</a>
+        <div class="separator"></div>
+        <a href="https://github.com/kareiku" target="_blank">
+            <img src="/assets/icons/github.svg" alt="My GitHub">
+        </a>
+    </div>
+
+    <section id="home">
+        <h1 class="title">Kare's Website</h1>
+    </section>
+
+    <h2 id="lists" class="header">My Lists</h2>
+    <table id="lists-table"></table>
+
+    <h2 id="login" class="header">Example Login</h2>
+    <h3 class="subtitle">
+        (Doesn't fulfill any functionality in this website.)
+    </h3>
+    <div id="example-login"></div>
+
+    <h2 id="piano" class="header">Piano</h2>
+    <div id="piano"></div>
+
+    <h2 id="sqlite" class="header">SQLite Manager</h2>
+    <div id="sqlite-navbar">
+        <input id="upload-btn" class="button" type="button"
+            value="Upload database">
+        <input id="download-btn" class="button" type="button"
+            value="Download database">
+        <input id="query-input" class="search-bar" type="search"
+            placeholder="Input a query...">
+        <input id="query-btn" class="button" type="button"
+            value="Process query">
+        <input id="create-btn" class="button" type="button"
+            value="Create empty database">
+    </div>
+    <table id="sqlite-table"></table>
 </body>
 </html>
