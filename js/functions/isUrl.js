@@ -1,3 +1,4 @@
 export default function isUrl(str) {
-    return typeof str === 'string' && str.startsWith('http');
+    const httpRegex = new RegExp('^https?:\\/\\/');
+    return (typeof str === 'string') && httpRegex.test(str);
 }

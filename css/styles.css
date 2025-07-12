@@ -1,6 +1,9 @@
 @import "fonts.css";
+@import "navbar.css";
+@import "home.css";
+@import "lists.css";
 
-* {
+body * {
     user-select: none;
 }
 
@@ -20,97 +23,7 @@ body::before {
     z-index: -1;
 }
 
-.title {
-    font-size: 50px;
-    font-family: expletus-sans;
-    /* text-shadow: 5px 5px #FF8C00,
-     *              10px 10px #FFED00,
-     *              15px 15px #008026,
-     *              20px 20px #24408E,
-     *              25px 25px #732982;
-     */
-    background-image: linear-gradient(
-        to right,
-        #E40303 0% 10%,
-        #FF8C00,
-        #FFED00,
-        #008026,
-        #24408E,
-        #732982 90% 100%
-    );
-    background-clip: text;
-    color: transparent;
-    display: inline;
-    margin: 5px;
-}
-
-.subtitle {
-    font-size: 20px;
-    font-family: playwrite-italia-moderna;
-    color: purple;
-    margin: 5px;
-}
-
-.navbar {
-    background-color: #ffffffdd;
-    opacity: 0.7;
-    margin-bottom: 20px;
-    padding: 0px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    overflow-x: hidden;
-}
-
-.navbar a {
-    font-size: 20px;
-    font-family: kalam;
-    color: #333366;
-    text-decoration: none;
-    margin: 5px 8px;
-    padding: 12px 18px;
-    transition: background-color 1s, color 1s;
-    display: flex;
-    align-items: center;
-    border-radius: 8px;
-    box-sizing: border-box;
-}
-
-.navbar a:hover {
-    background-color: rgba(164, 113, 209, 0.25);
-}
-
-.navbar img {
-    max-width: 36px;
-    height: auto;
-    display: block;
-}
-
-.separator {
-    flex: 1;
-}
-
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 10px;
-    }
-
-    .navbar a {
-        font-size: 18px;
-        padding: 10px 16px;
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-    }
-
-    .navbar img {
-        margin: 0;
-    }
-
-    .separator {
-        display: none;
-    }
+section {
+    scroll-margin-top: 100px;
+    padding-bottom: 50px;
 }

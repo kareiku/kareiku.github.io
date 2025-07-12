@@ -1,24 +1,20 @@
 @font-face {
-    font-family: "expletus-sans";
-    src: local("expletus-sans"), url("/assets/fonts/ExpletusSans-Regular.ttf");
+    font-family: "Expletus Sans";
+    src:
+        local("Expletus Sans"),
+        url("/assets/fonts/ExpletusSans-Regular.ttf");
 }
 
 @font-face {
-    font-family: "kalam";
-    src: local("kalam"), url("/assets/fonts/Kalam-Regular.ttf");
+    font-family: "Kalam";
+    src:
+        local("Kalam"),
+        url("/assets/fonts/Kalam-Regular.ttf");
 }
 
 @font-face {
-    font-family: "permanent-marker";
-    src: local("permanent-marker"), url("/assets/fonts/PermanentMarker-Regular.ttf");
-}
-
-@font-face {
-    font-family: "playwrite-italia-moderna";
-    src: local("playwrite-italia-moderna"), url("/assets/fonts/PlaywriteITModerna-Regular.ttf");
-}
-
-@font-face {
-    font-family: "special-elite";
-    src: local("special-elite"), url("/assets/fonts/SpecialElite-Regular.ttf");
+    font-family: "Playwrite Italia Moderna";
+    src:
+        local("Playwrite Italia Moderna"),
+        url("/assets/fonts/PlaywriteITModerna-Regular.ttf");
 }

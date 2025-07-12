@@ -2,8 +2,6 @@
 
 My GitHub Pages repository.
 
-## About Licenses
+## License
 
-This project's license can be found in `LICENSE`.
-
-Dependencies' licenses, for those that apply, can be found in `THIRD_PARTY_LICENSES`.
+This project is distributed under MIT License. More information in `LICENSE`.

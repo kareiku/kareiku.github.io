@@ -1,5 +1,68 @@
-iframe {
-    height: 43em;
-    width: 98%;
-    margin: 30px 1% 0 1%;
+#lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    select {
+        height: 30px;
+        width: 200px;
+        background-color: #FFFFFFDD;
+        color: #333;
+        border: none;
+        border-radius: 15px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        font-family: "Expletus Sans";
+    }
+
+    table {
+        font-family: "Playwrite Italia Moderna";
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1em 0;
+        font-size: 1rem;
+        color: #333;
+        background-color: #FFF;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    thead {
+        font-weight: bold;
+        background-color: #F4F4F4;
+        color: #333;
+    }
+
+    th {
+        background-color: #F4F4F4;
+        text-align: left;
+        padding: 0.75em;
+        border-bottom: 2px solid #DDD;
+        color: #333;
+    }
+
+    td {
+        padding: 0.75em;
+        border-bottom: 1px solid #EEE;
+    }
+
+    tr:nth-child(even) {
+        background-color: #F6F6F6;
+    }
+
+    tbody tr:hover {
+        background-color: #F1F1F1;
+    }
+
+    td, th {
+        word-wrap: break-word;
+    }
+
+    a {
+        color: #333;
+    }
 }
