@@ -1,7 +1,8 @@
 @import "fonts.css";
 @import "navbar.css";
 @import "home.css";
-@import "lists.css";
+@import "library.css";
+@import "guides.css";
 
 body * {
     user-select: none;

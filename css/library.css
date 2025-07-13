@@ -1,9 +1,18 @@
-#lists {
+#library {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    flex-wrap: wrap;
+
+    /* FIXME */
+    h1 {
+        font-family: inherit;
+        font-size: 1rem;
+        font-weight: inherit;
+        color: blue;
+    }
 
     select {
         height: 30px;

@@ -1,5 +1,7 @@
-import * as lists from '/js/lists.js';
+import library from '/js/library.js';
+import guides from '/js/guides.js';
 
 window.addEventListener('load', async () => {
-    await lists.onload();
+    await library();
+    await guides();
 });
