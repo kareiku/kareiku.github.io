@@ -1,33 +1,5 @@
-#library {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
-
-    /* FIXME */
-    h1 {
-        font-family: inherit;
-        font-size: 1rem;
-        font-weight: inherit;
-        color: blue;
-    }
-
-    select {
-        height: 30px;
-        width: 200px;
-        background-color: #FFFFFFDD;
-        color: #333;
-        border: none;
-        border-radius: 15px;
-        font-size: 16px;
-        font-weight: bold;
-        text-align: center;
-        font-family: "Expletus Sans";
-    }
-
-    table {
+.table {
+    & table {
         font-family: "Playwrite Italia Moderna";
         width: 100%;
         border-collapse: collapse;
@@ -40,13 +12,13 @@
         box-shadow: 0 2px 8px rgba(0,0,0,0.05);
     }
 
-    thead {
+    & thead {
         font-weight: bold;
         background-color: #F4F4F4;
         color: #333;
     }
 
-    th {
+    & th {
         background-color: #F4F4F4;
         text-align: left;
         padding: 0.75em;
@@ -54,24 +26,24 @@
         color: #333;
     }
 
-    td {
+    & td {
         padding: 0.75em;
         border-bottom: 1px solid #EEE;
     }
 
-    tr:nth-child(even) {
+    & tr:nth-child(even) {
         background-color: #F6F6F6;
     }
 
-    tbody tr:hover {
+    & tbody tr:hover {
         background-color: #F1F1F1;
     }
 
-    td, th {
+    & td, & th {
         word-wrap: break-word;
     }
 
-    a {
+    & a {
         color: #333;
     }
 }
