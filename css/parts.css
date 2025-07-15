@@ -1,0 +1,48 @@
+.title {
+    font-size: 4rem;
+    font-family: "Kalam";
+    background: linear-gradient(to right,
+        #E40303 0% 10%, #FF8C00, #FFED00, #008026, #24408E, #732982 90% 100%);
+    background-clip: text;
+    color: transparent;
+    display: inline;
+    margin: 1rem;
+}
+
+.github-icon {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    height: 3rem;
+    width: 3rem;
+    transition: 0.3s;
+}
+
+.github-icon:hover {
+    filter: drop-shadow(0 0 1rem purple);
+}
+
+.selector {
+    height: 1.5rem;
+    width: 10rem;
+    background-color: #FFFFFFDD;
+    color: #333;
+    border: none;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    appearance: none;
+}
+
+.container {
+    border: none;
+    border-radius: 1rem;
+    height: 95%;
+    width: 95%;
+    margin-bottom: 1rem;
+}
+
+.container > * {
+    overflow: auto;
+}

@@ -1,6 +1,0 @@
-.sortable-table { border-collapse: collapse; width: 100%; font-family: sans-serif; }
-.sortable-table th, .sortable-table td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-.sortable-table th { cursor: pointer; background-color: #f2f2f2; position: relative; }
-.sortable-table th:after { content: ''; position: absolute; right: 8px; font-size: 0.6em; opacity: 0; }
-.sortable-table th.sorted-asc:after { opacity: 1; content: '\25B4'; }
-.sortable-table th.sorted-desc:after { opacity: 1; content: '\25BE'; }

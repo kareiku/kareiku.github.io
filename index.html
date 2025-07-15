@@ -7,13 +7,16 @@
     <link rel="icon" href="/assets/icons/favicon.ico">
     <link rel="stylesheet" href="/css/styles.css" type="text/css">
 </head>
-<body>
-    <a id="toTop" href="#">&uarr;</a>
-    <a href="https://github.com/kareiku" target="_blank">
-        <img id="github-icon" src="/assets/icons/invertocat.svg"
+<body class="grid">
+    <a class="github-icon" href="https://github.com/kareiku" target="_blank">
+        <img class="github-icon" src="/assets/icons/invertocat.svg"
             alt="Invertocat">
     </a>
-    <h1 class="title">Kare's Website</h1>
+    <div class="gridded-1 flex">
+        <h1 class="flexed title">Kare's Website</h1>
+        <select id="sheet-selector" class="flexed selector"></select>
+    </div>
+    <div id="item-container" class="gridded-2 container"></div>
     <script type="module" src="/js/script.js"></script>
 </body>
 </html>

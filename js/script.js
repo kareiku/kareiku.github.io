@@ -1,26 +1,55 @@
+import requestUrl from '/js/request.js';
 import parseCsv from '/js/functions/parseCsv.js';
+import addOptions from '/js/functions/addSelectOptions.js';
+import renderTable from '/js/functions/renderFilterableTable.js';
+import { marked } from
+    'https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js';
+import DOMPurify from
+    'https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.es.mjs';
+
+const selector = document.getElementById('sheet-selector');
+
+let items;
 
 window.addEventListener('load', async () => {
-    try {
-        const request = await fetch('/assets/request.json')
-        if (!request.ok) return;
-        const resources = await request.json();
-        const data = await parseCsv(resources['url'], '\t');
-        for (let i = 1; i < data.length; i++) {
-            const response = await fetch(data[i][1]);
-            if (!response.ok) continue;
-            const header = document.createElement('h2');
-            const item = document.createElement(data[i][2]);
-            const datum = await response.text();
-            // TODO build datum in the correspondent type (table, md, etc.)
-            // TODO render datum
-        }
-    } catch(error) {
-        return;
-    }
+    fetch(requestUrl)
+    .then((response) => response.text())
+    .then((text) => {
+        const data = parseCsv(text, '\t');
+        items = data.map((datum) => ({
+            'name': datum[0],
+            'url': datum[1],
+            'type': datum[2]
+        }));
+        addOptions(selector, items.map((item, index) => ({
+            'text': item.name,
+            'value': index
+        })));
+        render(items[0]);
+    }).catch(console.error);
 });
 
-window.addEventListener('scroll', () => {
-    document.getElementById('toTop')
-        .style.display = window.scrollY > 100 ? 'block' : 'none';
+selector.addEventListener('change', () => {
+    const item = items[selector.value];
+    render(item);
 });
+
+async function render(obj) {
+    const response = await fetch(obj.url);
+    if (!response.ok) return;
+    const data = await response.text();
+    const container = document.getElementById('item-container');
+
+    if (obj.type === 'table') {
+        const result = renderTable(parseCsv(data, '\t'));
+        container.replaceChildren(result.select);
+        container.appendChild(result.filter);
+        container.appendChild(result.table);
+    } else if (obj.type === 'md') {
+        const result = DOMPurify.sanitize(marked.parse(data));
+        container.innerHTML = result;
+    } else {
+        container.innerHTML = '';
+        container.innerText = data;
+    }
+}

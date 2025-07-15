@@ -1,0 +1,10 @@
+.flex {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 2rem;
+}
+
+.flexed {
+    flex: 0 1 auto;
+    align-self: center;
+}
