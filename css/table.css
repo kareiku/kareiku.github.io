@@ -1,5 +1,5 @@
 .selector {
-    height: 1.5rem;
+    height: 1.6rem;
     width: 10rem;
     background-color: #FFFFFFDD;
     color: #333;
@@ -8,7 +8,7 @@
     font-size: 0.8rem;
     font-weight: bold;
     text-align: center;
-    appearance: none;
+    font-family: "Expletus Sans";
 }
 
 .filter {
@@ -16,14 +16,17 @@
     width: 20rem;
     border: none;
     border-radius: 0.2rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+    font-family: "Expletus Sans";
 }
 
-.table table {
+table.table {
     font-family: "Playwrite Italia Moderna";
-    width: 100%;
+    width: 95%;
     border-collapse: collapse;
-    margin: 1em 0;
-    font-size: 1rem;
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
     color: #333;
     background-color: #FFF;
     border-radius: 8px;
@@ -58,7 +61,7 @@
     background-color: #F1F1F1;
 }
 
-.table td, .table th {
+.table td, th {
     word-wrap: break-word;
 }
 
