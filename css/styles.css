@@ -1,13 +1,11 @@
 @import "fonts.css";
-@import "parts.css";
-@import "flex.css";
-@import "grid.css";
+@import "base.css";
+@import "table.css";
 
 html {
     height: 100%;
     min-height: 100vh;
     font-size: clamp(1vw, 0.5vw + 0.5rem, 3vw);
-    scroll-behavior: smooth; /* Makes # jumps smooth, not actual scrolling */
 }
 
 body::before {
@@ -24,4 +22,13 @@ body::before {
 body {
     font-family: system-ui;
     user-select: none;
+
+    display: flex;
+    flex-flow: column wrap;
+    gap: 2rem;
+}
+
+body > * {
+    flex: 0 1 auto;
+    align-self: center;
 }

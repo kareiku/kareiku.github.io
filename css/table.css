@@ -1,3 +1,23 @@
+.selector {
+    height: 1.5rem;
+    width: 10rem;
+    background-color: #FFFFFFDD;
+    color: #333;
+    border: none;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    appearance: none;
+}
+
+.filter {
+    height: 1.5rem;
+    width: 20rem;
+    border: none;
+    border-radius: 0.2rem;
+}
+
 .table table {
     font-family: "Playwrite Italia Moderna";
     width: 100%;
