@@ -50,7 +50,8 @@ export default function(data) {
     function filterTable() {
         tbody.innerHTML = '';
         let filteredData = data.filter((array) =>
-            array[selector.value].startsWith(filter.value));
+            array[selector.value].toLowerCase()
+            .includes(filter.value.toLowerCase()));
         if (filter.value.length === 0) filteredData = data;
         filteredData.forEach((array) => {
             const row = tbody.insertRow();
