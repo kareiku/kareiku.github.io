@@ -1,3 +1,6 @@
+import addOptions from '/js/functions/add-select-options.js';
+import isUrl from '/js/functions/is-url.js';
+
 /**
  * @param {string[][]} data
  * @returns {{
@@ -6,11 +9,8 @@
  *   table: HTMLTableElement
  * }}
  */
-import addOptions from '/js/functions/addSelectOptions.js';
-import isUrl from '/js/functions/isUrl.js';
-
-export default function(data) {
-    const selector = document.createElement('select');
+export default function (data) {
+    const select = document.createElement('select');
     const filter = document.createElement('input');
     const table = document.createElement('table');
 
@@ -23,10 +23,13 @@ export default function(data) {
         headerRow.appendChild(th);
     });
 
-    addOptions(selector, header.map((option, index) => ({
-        'text': option,
-        'value': index
-    })));
+    addOptions(
+        select,
+        header.map((option, index) => ({
+            text: option,
+            value: index
+        }))
+    );
 
     function insertCell(row, element) {
         const cell = row.insertCell();
@@ -50,8 +53,10 @@ export default function(data) {
     function filterTable() {
         tbody.innerHTML = '';
         let filteredData = data.filter((array) =>
-            (array[Number(selector.value)] || '').toLowerCase()
-            .includes(filter.value.toLowerCase()));
+            String(array[Number(select.value)] || '')
+                .toLowerCase()
+                .includes(filter.value.toLowerCase())
+        );
         if (filter.value.length === 0) filteredData = data;
         filteredData.forEach((array) => {
             const row = tbody.insertRow();
@@ -59,5 +64,5 @@ export default function(data) {
         });
     }
 
-    return { 'select': selector, 'filter': filter, 'table': table };
+    return { select, filter, table };
 }

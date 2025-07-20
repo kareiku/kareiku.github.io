@@ -22,13 +22,4 @@ body::before {
 body {
     font-family: system-ui;
     user-select: none;
-
-    display: flex;
-    flex-flow: column wrap;
-    gap: 2rem;
-}
-
-body > * {
-    flex: 0 1 auto;
-    align-self: center;
 }

@@ -34,3 +34,14 @@
 .misc-icon:hover {
     filter: drop-shadow(0 0 1rem green);
 }
+
+.flex {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 2rem;
+}
+
+.flex > * {
+    flex: 0 1 auto;
+    align-self: center;
+}
