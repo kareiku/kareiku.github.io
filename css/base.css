@@ -22,7 +22,7 @@
     filter: drop-shadow(0 0 1rem purple);
 }
 
-.guides-icon {
+.misc-icon {
     position: absolute;
     top: 0.5rem;
     left: 0.5rem;
@@ -31,6 +31,6 @@
     transition: 0.3s;
 }
 
-.guides-icon:hover {
+.misc-icon:hover {
     filter: drop-shadow(0 0 1rem green);
 }
