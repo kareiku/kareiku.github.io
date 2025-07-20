@@ -20,6 +20,6 @@ body::before {
 }
 
 body {
-    font-family: system-ui;
+    font-family: "Arial";
     user-select: none;
 }
