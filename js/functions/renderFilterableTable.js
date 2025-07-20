@@ -50,7 +50,7 @@ export default function(data) {
     function filterTable() {
         tbody.innerHTML = '';
         let filteredData = data.filter((array) =>
-            array[selector.value].toLowerCase()
+            (array[Number(selector.value)] || '').toLowerCase()
             .includes(filter.value.toLowerCase()));
         if (filter.value.length === 0) filteredData = data;
         filteredData.forEach((array) => {
