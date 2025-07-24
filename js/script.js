@@ -21,7 +21,7 @@ async function start() {
     );
     document.body.appendChild(tableSelect);
     document.body.appendChild(container);
-    loadTable(container, tables['contents'][Number(tableSelect.value)]);
+    tableSelect.dispatchEvent(new Event('change'));
 }
 
 function loadTable(parentNode, sqlArray) {
